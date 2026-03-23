@@ -60,8 +60,16 @@ function escHtml(str) {
 
 // 渲染所有卡片
 async function init() {
-  const res = await fetch('data/cases.json');
-  const cases = await res.json();
+  let cases;
+  try {
+    const res = await fetch('data/cases.json');
+    if (!res.ok) throw new Error('fetch failed');
+    cases = await res.json();
+  } catch {
+    const container = document.getElementById('sections-container');
+    if (container) container.innerHTML = '<p style="text-align:center;padding:40px;color:#6e6e73">加载失败，请刷新页面重试。</p>';
+    return;
+  }
 
   // 更新 Hero 计数
   document.getElementById('case-count').textContent = cases.length;

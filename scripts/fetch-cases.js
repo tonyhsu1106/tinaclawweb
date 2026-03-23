@@ -21,12 +21,12 @@ const CATEGORY_META = {
 // 按文件名关键词归类
 function detectCategory(filename) {
   const f = filename.toLowerCase();
-  if (/social|post|twitter|instagram|reddit|youtube|digest/.test(f)) return 'social';
-  if (/game|build|app|creative|design|overnight/.test(f)) return 'creative';
+  if (/social|post|twitter|instagram|reddit|youtube|digest|podcast|content|x-account|newsletter|channel/.test(f)) return 'social';
+  if (/game|build|app|creative|design|overnight|mvp|idea-validator/.test(f)) return 'creative';
   if (/server|deploy|infra|devops|docker|k8s|self[-_]?heal/.test(f)) return 'devops';
-  if (/meeting|crm|task|brief|morning|family|hub/.test(f)) return 'productivity';
-  if (/research|paper|arxiv|latex|knowledge|rag|brain|memory|semantic/.test(f)) return 'research';
-  if (/finance|trading|earnings|market|stock|mvp/.test(f)) return 'finance';
+  if (/meeting|crm|task|brief|morning|family|hub|inbox|habit|health|symptom|phone|event|guest|calendar|project|dashboard|multi-agent|autonomous/.test(f)) return 'productivity';
+  if (/research|paper|arxiv|latex|knowledge|rag|brain|memory|semantic|learning/.test(f)) return 'research';
+  if (/finance|trading|earnings|market|stock|polymarket/.test(f)) return 'finance';
   return 'productivity';
 }
 
@@ -95,7 +95,7 @@ function parseMarkdown(content, filename) {
         .filter(Boolean)
     : [];
 
-  const howto = getSection('how to use', 'setup', 'how it works');
+  const howto = getSection('how to set it up', 'how to set up', 'setup', 'how to use', 'detailed setup guide', 'how it works', 'getting started', 'prompts');
 
   const diffSection = getSection('difficulty');
   let difficulty = 'intermediate';

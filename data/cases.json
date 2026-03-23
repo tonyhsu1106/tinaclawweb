@@ -1,5 +1,36 @@
 [
   {
+    "id": "content-factory",
+    "category": "social",
+    "icon": "📱",
+    "gradient": [
+      "#ff375f",
+      "#ff6b6b"
+    ],
+    "name": {
+      "en": "Multi-Agent Content Factory",
+      "zh": "Multi-Agent Content Factory"
+    },
+    "summary": {
+      "en": "You're a content creator juggling research, writing, and design across multiple platforms. Each step — finding trending",
+      "zh": "You're a content creator juggling research, writing, and design across multiple platforms. Each step — finding trending"
+    },
+    "description": {
+      "en": "You're a content creator juggling research, writing, and design across multiple platforms. Each step — finding trending topics, writing scripts, generating thumbnails — eats hours of your day. What if",
+      "zh": "You're a content creator juggling research, writing, and design across multiple platforms. Each step — finding trending topics, writing scripts, generating thumbnails — eats hours of your day. What if"
+    },
+    "skills": {
+      "en": [],
+      "zh": []
+    },
+    "howto": {
+      "en": "1. Set up a Discord server (or ask OpenClaw to do it for you — just say \"Set up a Discord for us\").\n\n2. Create channels for each agent:\n   - `#research` — trending topics and content opportunities\n   - `#scripts` — written drafts and outlines\n   - `#thumbnails` — generated images and cover art\n\n3. Prompt OpenClaw:\n```text\nI want you to build me a content factory inside of Discord.\nSet up channels for different agents:\n\n1. Research Agent (#research): Every morning at 8 AM, research top trending\n   stories, competitor content, and what's performing well on social media\n   in my niche. Post the top 5 content opportunities with sources.\n\n2. Writing Agent (#scripts): Take the best idea from the research agent\n   and write a full script/thread/newsletter draft. Post it in #scripts.\n\n3. Thumbnail Agent (#thumbnails): Generate AI thumbnails or cover images\n   for the content. Post them in #thumbnails.\n\nHave all their work organized in different channels.\nRun this pipeline automatically every morning.\n```\n\n4. Customize for your platform:\n```text\nI focus on X/Twitter threads, not YouTube. Change the writing agent\nto produce tweet threads instead of video scripts.\n```",
+      "zh": "1. Set up a Discord server (or ask OpenClaw to do it for you — just say \"Set up a Discord for us\").\n\n2. Create channels for each agent:\n   - `#research` — trending topics and content opportunities\n   - `#scripts` — written drafts and outlines\n   - `#thumbnails` — generated images and cover art\n\n3. Prompt OpenClaw:\n```text\nI want you to build me a content factory inside of Discord.\nSet up channels for different agents:\n\n1. Research Agent (#research): Every morning at 8 AM, research top trending\n   stories, competitor content, and what's performing well on social media\n   in my niche. Post the top 5 content opportunities with sources.\n\n2. Writing Agent (#scripts): Take the best idea from the research agent\n   and write a full script/thread/newsletter draft. Post it in #scripts.\n\n3. Thumbnail Agent (#thumbnails): Generate AI thumbnails or cover images\n   for the content. Post them in #thumbnails.\n\nHave all their work organized in different channels.\nRun this pipeline automatically every morning.\n```\n\n4. Customize for your platform:\n```text\nI focus on X/Twitter threads, not YouTube. Change the writing agent\nto produce tweet threads instead of video scripts.\n```"
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/content-factory.md"
+  },
+  {
     "id": "daily-reddit-digest",
     "category": "social",
     "icon": "📱",
@@ -24,8 +55,8 @@
       "zh": []
     },
     "howto": {
-      "en": "",
-      "zh": ""
+      "en": "After installing the skill, prompt your OpenClaw:\n```text\nI want you to give me the top performing posts from the following subreddits.\n<paste the list here>\nCreate a separate memory for the reddit processes, about the type of posts I like to see and every day ask me if I liked the list you provided. Save my preference as rules in the memory to use for a better digest curation. (e.g. do not include memes.)\nEvery day at 5pm, run this process and give me the digest.\n```",
+      "zh": "After installing the skill, prompt your OpenClaw:\n```text\nI want you to give me the top performing posts from the following subreddits.\n<paste the list here>\nCreate a separate memory for the reddit processes, about the type of posts I like to see and every day ask me if I liked the list you provided. Save my preference as rules in the memory to use for a better digest curation. (e.g. do not include memes.)\nEvery day at 5pm, run this process and give me the digest.\n```"
     },
     "difficulty": "beginner",
     "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/daily-reddit-digest.md"
@@ -55,11 +86,73 @@
       "zh": []
     },
     "howto": {
-      "en": "",
-      "zh": ""
+      "en": "### Option 1: Channel-based digest\n\nPrompt OpenClaw:\n\n```text\nEvery morning at 8am, fetch the latest videos from these YouTube channels and give me a digest with key insights from each:\n\n- @TED\n- @Fireship\n- @ThePrimeTimeagen\n- @lexfridman\n\nFor each new video (uploaded in the last 24-48 hours):\n1. Get the transcript\n2. Summarize the main points in 2-3 bullets\n3. Include the video title, channel name, and link\n\nIf a channel handle doesn't resolve, search for it and find the correct one.\nSave my channel list to memory so I can add/remove channels later.\n```\n\n### Option 2: Keyword-based digest\n\nTrack new videos about a specific topic:\n\n```text\nEvery day, search YouTube for new videos about \"OpenClaw\" (or \"Claude Code\", \"AI agents\", etc).\n\nMaintain a file called seen-videos.txt with video IDs you've already processed.\nOnly fetch transcripts for videos NOT in that file.\nAfter processing, add the video ID to seen-videos.txt.\n\nFor each new video:\n1. Get the transcript\n2. Give me a 3-bullet summary\n3. Note anything relevant to my work\n\nRun this every morning at 9am.\n```\n\nThis way you never waste credits re-fetching videos you've already seen.",
+      "zh": "### Option 1: Channel-based digest\n\nPrompt OpenClaw:\n\n```text\nEvery morning at 8am, fetch the latest videos from these YouTube channels and give me a digest with key insights from each:\n\n- @TED\n- @Fireship\n- @ThePrimeTimeagen\n- @lexfridman\n\nFor each new video (uploaded in the last 24-48 hours):\n1. Get the transcript\n2. Summarize the main points in 2-3 bullets\n3. Include the video title, channel name, and link\n\nIf a channel handle doesn't resolve, search for it and find the correct one.\nSave my channel list to memory so I can add/remove channels later.\n```\n\n### Option 2: Keyword-based digest\n\nTrack new videos about a specific topic:\n\n```text\nEvery day, search YouTube for new videos about \"OpenClaw\" (or \"Claude Code\", \"AI agents\", etc).\n\nMaintain a file called seen-videos.txt with video IDs you've already processed.\nOnly fetch transcripts for videos NOT in that file.\nAfter processing, add the video ID to seen-videos.txt.\n\nFor each new video:\n1. Get the transcript\n2. Give me a 3-bullet summary\n3. Note anything relevant to my work\n\nRun this every morning at 9am.\n```\n\nThis way you never waste credits re-fetching videos you've already seen."
     },
     "difficulty": "beginner",
     "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/daily-youtube-digest.md"
+  },
+  {
+    "id": "multi-channel-assistant",
+    "category": "social",
+    "icon": "📱",
+    "gradient": [
+      "#ff375f",
+      "#ff6b6b"
+    ],
+    "name": {
+      "en": "Multi-Channel Personal Assistant",
+      "zh": "Multi-Channel Personal Assistant"
+    },
+    "summary": {
+      "en": "Context-switching between apps to manage tasks, schedule events, send messages, and track work is exhausting. You want o",
+      "zh": "Context-switching between apps to manage tasks, schedule events, send messages, and track work is exhausting. You want o"
+    },
+    "description": {
+      "en": "Context-switching between apps to manage tasks, schedule events, send messages, and track work is exhausting. You want one interface that routes to all your tools. This workflow consolidates everythin",
+      "zh": "Context-switching between apps to manage tasks, schedule events, send messages, and track work is exhausting. You want one interface that routes to all your tools. This workflow consolidates everythin"
+    },
+    "skills": {
+      "en": [],
+      "zh": []
+    },
+    "howto": {
+      "en": "1. Set up Telegram topics for different contexts:\n   - `config` — bot settings and debugging\n   - `updates` — status and notifications\n   - `video-ideas` — content pipeline\n   - `personal-crm` — contact management\n   - `earnings` — financial tracking\n   - `knowledge-base` — RAG ingestion and queries\n\n2. Connect all your tools via OpenClaw config:\n   - Google OAuth (Gmail, Calendar, Drive)\n   - Slack (app + user tokens)\n   - Todoist API token\n   - Asana API token\n\n3. Prompt OpenClaw:\n```text\nYou are my multi-channel assistant. Route requests based on context:\n\nTelegram topics:\n- \"config\" → system settings, debugging\n- \"updates\" → daily summaries, reminders, calendar\n- \"video-ideas\" → content pipeline and research\n- \"personal-crm\" → contact queries and meeting prep\n- \"earnings\" → financial tracking\n- \"knowledge-base\" → save and search content\n\nWhen I ask you to:\n- \"Add [task] to my todo\" → use Todoist\n- \"Create a card for [topic]\" → use Asana Video Pipeline project\n- \"Schedule [event]\" → use gog calendar\n- \"Email [person] about [topic]\" → draft email via gog gmail\n- \"Upload [file] to Drive\" → use gog drive\n\nSet up automated reminders:\n- Monday 6 PM: \"🗑️ Trash day tomorrow\"\n- Friday 3 PM: \"✍️ Time to write the weekly company update\"\n```\n\n4. Test each integration individually, then test cross-workflow interactions (e.g., saving a Slack link to knowledge base, then using it in a video research card).",
+      "zh": "1. Set up Telegram topics for different contexts:\n   - `config` — bot settings and debugging\n   - `updates` — status and notifications\n   - `video-ideas` — content pipeline\n   - `personal-crm` — contact management\n   - `earnings` — financial tracking\n   - `knowledge-base` — RAG ingestion and queries\n\n2. Connect all your tools via OpenClaw config:\n   - Google OAuth (Gmail, Calendar, Drive)\n   - Slack (app + user tokens)\n   - Todoist API token\n   - Asana API token\n\n3. Prompt OpenClaw:\n```text\nYou are my multi-channel assistant. Route requests based on context:\n\nTelegram topics:\n- \"config\" → system settings, debugging\n- \"updates\" → daily summaries, reminders, calendar\n- \"video-ideas\" → content pipeline and research\n- \"personal-crm\" → contact queries and meeting prep\n- \"earnings\" → financial tracking\n- \"knowledge-base\" → save and search content\n\nWhen I ask you to:\n- \"Add [task] to my todo\" → use Todoist\n- \"Create a card for [topic]\" → use Asana Video Pipeline project\n- \"Schedule [event]\" → use gog calendar\n- \"Email [person] about [topic]\" → draft email via gog gmail\n- \"Upload [file] to Drive\" → use gog drive\n\nSet up automated reminders:\n- Monday 6 PM: \"🗑️ Trash day tomorrow\"\n- Friday 3 PM: \"✍️ Time to write the weekly company update\"\n```\n\n4. Test each integration individually, then test cross-workflow interactions (e.g., saving a Slack link to knowledge base, then using it in a video research card)."
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/multi-channel-assistant.md"
+  },
+  {
+    "id": "multi-channel-customer-service",
+    "category": "social",
+    "icon": "📱",
+    "gradient": [
+      "#ff375f",
+      "#ff6b6b"
+    ],
+    "name": {
+      "en": "Multi-Channel AI Customer Service Platform",
+      "zh": "Multi-Channel AI Customer Service Platform"
+    },
+    "summary": {
+      "en": "Small businesses juggle WhatsApp, Instagram DMs, emails, and Google Reviews across multiple apps. Customers expect insta",
+      "zh": "Small businesses juggle WhatsApp, Instagram DMs, emails, and Google Reviews across multiple apps. Customers expect insta"
+    },
+    "description": {
+      "en": "Small businesses juggle WhatsApp, Instagram DMs, emails, and Google Reviews across multiple apps. Customers expect instant responses 24/7, but hiring staff for round-the-clock coverage is expensive. T",
+      "zh": "Small businesses juggle WhatsApp, Instagram DMs, emails, and Google Reviews across multiple apps. Customers expect instant responses 24/7, but hiring staff for round-the-clock coverage is expensive. T"
+    },
+    "skills": {
+      "en": [],
+      "zh": []
+    },
+    "howto": {
+      "en": "1. **Connect channels** via OpenClaw config:\n   - WhatsApp Business API (through 360dialog or official API)\n   - Instagram via Meta Business Suite\n   - Gmail via `gog` OAuth\n   - Google Business Profile API token\n\n2. **Create business knowledge base**:\n   - Services and pricing\n   - Business hours and location\n   - FAQ responses\n   - Escalation triggers (e.g., complaints, refund requests)\n\n3. **Configure AGENTS.md** with routing logic:\n\n```text",
+      "zh": "1. **Connect channels** via OpenClaw config:\n   - WhatsApp Business API (through 360dialog or official API)\n   - Instagram via Meta Business Suite\n   - Gmail via `gog` OAuth\n   - Google Business Profile API token\n\n2. **Create business knowledge base**:\n   - Services and pricing\n   - Business hours and location\n   - FAQ responses\n   - Escalation triggers (e.g., complaints, refund requests)\n\n3. **Configure AGENTS.md** with routing logic:\n\n```text"
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/multi-channel-customer-service.md"
   },
   {
     "id": "multi-source-tech-news-digest",
@@ -92,11 +185,73 @@
       ]
     },
     "howto": {
-      "en": "",
-      "zh": ""
+      "en": "**Install and set up daily digest:**\n```text\nInstall tech-news-digest from ClawHub. Set up a daily tech digest at 9am to Discord #tech-news channel. Also send it to my email at myemail@example.com.\n```\n\n**Add custom sources:**\n```text\nAdd these to my tech digest sources:\n- RSS: https://my-company-blog.com/feed\n- Twitter: @myFavResearcher\n- GitHub: my-org/my-framework\n```\n\n**Generate on demand:**\n```text\nGenerate a tech digest for the past 24 hours and send it here.\n```",
+      "zh": "**Install and set up daily digest:**\n```text\nInstall tech-news-digest from ClawHub. Set up a daily tech digest at 9am to Discord #tech-news channel. Also send it to my email at myemail@example.com.\n```\n\n**Add custom sources:**\n```text\nAdd these to my tech digest sources:\n- RSS: https://my-company-blog.com/feed\n- Twitter: @myFavResearcher\n- GitHub: my-org/my-framework\n```\n\n**Generate on demand:**\n```text\nGenerate a tech digest for the past 24 hours and send it here.\n```"
     },
     "difficulty": "beginner",
     "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/multi-source-tech-news-digest.md"
+  },
+  {
+    "id": "podcast-production-pipeline",
+    "category": "social",
+    "icon": "📱",
+    "gradient": [
+      "#ff375f",
+      "#ff6b6b"
+    ],
+    "name": {
+      "en": "Podcast Production Pipeline",
+      "zh": "Podcast Production Pipeline"
+    },
+    "summary": {
+      "en": "You have a podcast idea, maybe even a backlog of episode topics. But between researching guests, writing outlines, draft",
+      "zh": "You have a podcast idea, maybe even a backlog of episode topics. But between researching guests, writing outlines, draft"
+    },
+    "description": {
+      "en": "You have a podcast idea, maybe even a backlog of episode topics. But between researching guests, writing outlines, drafting intros, generating show notes, and writing social media posts for promotion ",
+      "zh": "You have a podcast idea, maybe even a backlog of episode topics. But between researching guests, writing outlines, drafting intros, generating show notes, and writing social media posts for promotion "
+    },
+    "skills": {
+      "en": [],
+      "zh": []
+    },
+    "howto": {
+      "en": "1. Pre-recording — generate research and outline:\n```text\nI'm recording a podcast episode about [TOPIC]. My guest is [NAME].\n\nPlease:\n1. Research the guest — their background, recent work, hot takes, and\n   anything controversial or interesting they've said publicly.\n2. Research the topic — key trends, recent news, common misconceptions,\n   and what the audience likely already knows vs. what would surprise them.\n3. Generate an episode outline:\n   - Cold open hook (1-2 sentences to grab attention)\n   - Intro script (30 seconds, casual tone)\n   - 5-7 interview questions, ordered from easy/rapport-building to deep/provocative\n   - 2-3 \"back pocket\" questions in case the conversation stalls\n   - Closing segment with call-to-action\n\nSave everything to ~/podcast/episodes/[episode-number]/prep/\n```\n\n2. Post-recording — generate show notes and promo:\n```text\nHere's the transcript for Episode [NUMBER]: [paste or point to file]\n\nPlease:\n1. Write timestamped show notes — every major topic shift gets a timestamp\n   and one-line summary. Include links to anything mentioned (tools, books,\n   articles, people).\n2. Write an episode description (max 200 words) optimized for podcast\n   search. Include 3-5 relevant keywords naturally.\n3. Create social media posts:\n   - X/Twitter: 3 tweets — one pull quote, one key insight, one question\n     to spark discussion. Each under 280 chars.\n   - LinkedIn: 1 post, professional tone, 100-150 words.\n   - Instagram caption: 1 post with emoji, casual tone, include relevant hashtags.\n4. Extract a \"highlights\" list — the 3 most interesting/surprising moments\n   with timestamps.\n\nSave everything to ~/podcast/episodes/[episode-number]/publish/\n```\n\n3. Optional — competitor monitoring:\n```text\nMonitor these podcast RSS feeds daily:\n- [feed URL 1]\n- [feed URL 2]\n\nWhen a new episode drops that covers a topic relevant to my podcast,\nsend me a Telegram message with:\n- Episode title and link\n- One-sentence summary\n- Whether this is something I should respond to or cover from my angle\n```",
+      "zh": "1. Pre-recording — generate research and outline:\n```text\nI'm recording a podcast episode about [TOPIC]. My guest is [NAME].\n\nPlease:\n1. Research the guest — their background, recent work, hot takes, and\n   anything controversial or interesting they've said publicly.\n2. Research the topic — key trends, recent news, common misconceptions,\n   and what the audience likely already knows vs. what would surprise them.\n3. Generate an episode outline:\n   - Cold open hook (1-2 sentences to grab attention)\n   - Intro script (30 seconds, casual tone)\n   - 5-7 interview questions, ordered from easy/rapport-building to deep/provocative\n   - 2-3 \"back pocket\" questions in case the conversation stalls\n   - Closing segment with call-to-action\n\nSave everything to ~/podcast/episodes/[episode-number]/prep/\n```\n\n2. Post-recording — generate show notes and promo:\n```text\nHere's the transcript for Episode [NUMBER]: [paste or point to file]\n\nPlease:\n1. Write timestamped show notes — every major topic shift gets a timestamp\n   and one-line summary. Include links to anything mentioned (tools, books,\n   articles, people).\n2. Write an episode description (max 200 words) optimized for podcast\n   search. Include 3-5 relevant keywords naturally.\n3. Create social media posts:\n   - X/Twitter: 3 tweets — one pull quote, one key insight, one question\n     to spark discussion. Each under 280 chars.\n   - LinkedIn: 1 post, professional tone, 100-150 words.\n   - Instagram caption: 1 post with emoji, casual tone, include relevant hashtags.\n4. Extract a \"highlights\" list — the 3 most interesting/surprising moments\n   with timestamps.\n\nSave everything to ~/podcast/episodes/[episode-number]/publish/\n```\n\n3. Optional — competitor monitoring:\n```text\nMonitor these podcast RSS feeds daily:\n- [feed URL 1]\n- [feed URL 2]\n\nWhen a new episode drops that covers a topic relevant to my podcast,\nsend me a Telegram message with:\n- Episode title and link\n- One-sentence summary\n- Whether this is something I should respond to or cover from my angle\n```"
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/podcast-production-pipeline.md"
+  },
+  {
+    "id": "x-account-analysis",
+    "category": "social",
+    "icon": "📱",
+    "gradient": [
+      "#ff375f",
+      "#ff6b6b"
+    ],
+    "name": {
+      "en": "X Account Analysis",
+      "zh": "X Account Analysis"
+    },
+    "summary": {
+      "en": "There are many websites designed to give you a qualitative analysis of your X account. While X already gives you an anal",
+      "zh": "There are many websites designed to give you a qualitative analysis of your X account. While X already gives you an anal"
+    },
+    "description": {
+      "en": "There are many websites designed to give you a qualitative analysis of your X account. While X already gives you an analytics section, it's more focused to show your numbers on your performance. But a",
+      "zh": "There are many websites designed to give you a qualitative analysis of your X account. While X already gives you an analytics section, it's more focused to show your numbers on your performance. But a"
+    },
+    "skills": {
+      "en": [],
+      "zh": []
+    },
+    "howto": {
+      "en": "Here's the flow:\n1. Make sure Bird skill is working.\n2. For security and isolation, you better create a new account for your ClawdBot.\n3. Auth with your X account. log into x.com in Chrome/Brave, and provide the right cookie information (`auth-token`, `ct0`) so OpenClaw can access your account.\n4. Ask OpenClaw to take a look at your real account, fetch the last N tweets, and ask it any questions you like. Alternatively, you can ask it to write you specific scripts.",
+      "zh": "Here's the flow:\n1. Make sure Bird skill is working.\n2. For security and isolation, you better create a new account for your ClawdBot.\n3. Auth with your X account. log into x.com in Chrome/Brave, and provide the right cookie information (`auth-token`, `ct0`) so OpenClaw can access your account.\n4. Ask OpenClaw to take a look at your real account, fetch the last N tweets, and ask it any questions you like. Alternatively, you can ask it to write you specific scripts."
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/x-account-analysis.md"
   },
   {
     "id": "x-twitter-automation",
@@ -127,8 +282,8 @@
       ]
     },
     "howto": {
-      "en": "",
-      "zh": ""
+      "en": "**Install the plugin:**\n```text\nopenclaw plugins install @xquik/tweetclaw\n```\n\n**Post a tweet:**\n```text\nPost a tweet: \"Just shipped a new feature — try it out!\"\n```\n\n**Run a giveaway:**\n```text\nPick 3 random winners from the retweeters of this tweet: https://x.com/username/status/123456789. Exclude accounts with fewer than 50 followers.\n```\n\n**Extract data:**\n```text\nExtract all users who liked this tweet and export as CSV: https://x.com/username/status/123456789\n```\n\n**Monitor an account:**\n```text\nMonitor @elonmusk and notify me whenever he posts a new tweet.\n```",
+      "zh": "**Install the plugin:**\n```text\nopenclaw plugins install @xquik/tweetclaw\n```\n\n**Post a tweet:**\n```text\nPost a tweet: \"Just shipped a new feature — try it out!\"\n```\n\n**Run a giveaway:**\n```text\nPick 3 random winners from the retweeters of this tweet: https://x.com/username/status/123456789. Exclude accounts with fewer than 50 followers.\n```\n\n**Extract data:**\n```text\nExtract all users who liked this tweet and export as CSV: https://x.com/username/status/123456789\n```\n\n**Monitor an account:**\n```text\nMonitor @elonmusk and notify me whenever he posts a new tweet.\n```"
     },
     "difficulty": "beginner",
     "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/x-twitter-automation.md"
@@ -158,8 +313,8 @@
       "zh": []
     },
     "howto": {
-      "en": "",
-      "zh": ""
+      "en": "1. Set up a Telegram topic for video ideas and configure it in OpenClaw.\n2. Install the knowledge-base skill and x-research skill.\n3. Create a SQLite database for pitch tracking:\n```sql\nCREATE TABLE pitches (\n  id INTEGER PRIMARY KEY,\n  timestamp TEXT,\n  topic TEXT,\n  embedding BLOB,\n  sources TEXT\n);\n```\n4. Prompt OpenClaw:\n```text\nRun an hourly cron job to:\n1. Search web and X/Twitter for breaking AI news\n2. Check against my 90-day YouTube catalog (fetch from YouTube Analytics via gog)\n3. Check semantic similarity against all past pitches in the database\n4. If novel, pitch the idea to my Telegram \"video ideas\" topic with sources\n\nAlso: when I share a link in Slack #ai_trends, automatically:\n1. Research the topic\n2. Search X for related posts\n3. Query my knowledge base\n4. Create an Asana card in Video Pipeline with a full outline\n```",
+      "zh": "1. Set up a Telegram topic for video ideas and configure it in OpenClaw.\n2. Install the knowledge-base skill and x-research skill.\n3. Create a SQLite database for pitch tracking:\n```sql\nCREATE TABLE pitches (\n  id INTEGER PRIMARY KEY,\n  timestamp TEXT,\n  topic TEXT,\n  embedding BLOB,\n  sources TEXT\n);\n```\n4. Prompt OpenClaw:\n```text\nRun an hourly cron job to:\n1. Search web and X/Twitter for breaking AI news\n2. Check against my 90-day YouTube catalog (fetch from YouTube Analytics via gog)\n3. Check semantic similarity against all past pitches in the database\n4. If novel, pitch the idea to my Telegram \"video ideas\" topic with sources\n\nAlso: when I share a link in Slack #ai_trends, automatically:\n1. Research the topic\n2. Search X for related posts\n3. Query my knowledge base\n4. Create an Asana card in Video Pipeline with a full outline\n```"
     },
     "difficulty": "beginner",
     "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/youtube-content-pipeline.md"
@@ -193,8 +348,8 @@
       ]
     },
     "howto": {
-      "en": "",
-      "zh": ""
+      "en": "The core of this workflow is the **System Instructions** given to the agent. This prompt turns the LLM into a disciplined developer that respects the project's rigid structure.\n\n*(**Note:** The actual prompts used in production are in **Spanish** (`es-419`) to align with the project's target audience (Latin American children) and potential future contributors from the region. The version below is translated for this documentation.)*\n\n```text\nAct as an Expert in Web Game Development and Child UX.\nYour goal is to develop the next game in the production queue.\n\nPlease read and analyze the following context files before starting:\n\n1.  BUG CONTEXT (Top Priority - CRITICAL):\n    @[bugs/]\n    (Check this folder. If there are files, YOUR TASK IS TO FIX **ONLY THE FIRST FILE** (in alphabetical order). Ignore the rest of the bugs and the game queue for now).\n\n2.  QUEUE CONTEXT (Which game is next):\n    @[development-queue.md]\n    (Identify the game marked as [NEXT] in the \"Next Games\" section. ONLY if there are no bugs).\n\n3.  DESIGN RULES (Technical Standards):\n    @[game-design-rules.md]\n    (Strictly follow these rules: Pure HTML/CSS/JS, folder structure, mobile responsiveness)\n\n4.  GAME SPECIFICATIONS (Mechanics and Assets):\n    (Identify the corresponding file in games-backlog/ based on the game ID)\n\n5.  CENTRAL REGISTRY (Integration):\n    @[public/js/games-list.json]\n    (File where you MUST register the new game so it appears on the home page)\n\nTASK:\n0. **BUGS FIRST!**: If the `bugs/` folder has content, your only priority is to fix **the first bug in alphabetical order**. Create a `fix/...` branch, resolve **that** bug, update status, and merge. **Do not attempt to fix multiple bugs at once.**\n   - IF THERE ARE NO BUGS, proceed with the next game:\n\n1. **Synchronization**: `git fetch && git pull origin master` (CRITICAL).\n2. Create a new branch: `git checkout -b feature/[game-id]`.\n3. Create the folder and files in 'public/games/[game-id]/'.\n4. Implement logic and design according to the backlog and design rules.\n5. Register the game in 'games-list.json' (CRITICAL).\n6. When finished:\n    - Update `CHANGELOG.md` bumping the version.\n    - Update `master-game-plan.md` and `development-queue.md`.\n    - Document changes: `git commit -m \"feat: add [game-id]\"`.\n7. **Delivery**:\n    - Push: `git push origin feature/[game-id]`.\n    - Request merge to master.\n    - Once in master, push changes (`git push origin master`).\n```",
+      "zh": "The core of this workflow is the **System Instructions** given to the agent. This prompt turns the LLM into a disciplined developer that respects the project's rigid structure.\n\n*(**Note:** The actual prompts used in production are in **Spanish** (`es-419`) to align with the project's target audience (Latin American children) and potential future contributors from the region. The version below is translated for this documentation.)*\n\n```text\nAct as an Expert in Web Game Development and Child UX.\nYour goal is to develop the next game in the production queue.\n\nPlease read and analyze the following context files before starting:\n\n1.  BUG CONTEXT (Top Priority - CRITICAL):\n    @[bugs/]\n    (Check this folder. If there are files, YOUR TASK IS TO FIX **ONLY THE FIRST FILE** (in alphabetical order). Ignore the rest of the bugs and the game queue for now).\n\n2.  QUEUE CONTEXT (Which game is next):\n    @[development-queue.md]\n    (Identify the game marked as [NEXT] in the \"Next Games\" section. ONLY if there are no bugs).\n\n3.  DESIGN RULES (Technical Standards):\n    @[game-design-rules.md]\n    (Strictly follow these rules: Pure HTML/CSS/JS, folder structure, mobile responsiveness)\n\n4.  GAME SPECIFICATIONS (Mechanics and Assets):\n    (Identify the corresponding file in games-backlog/ based on the game ID)\n\n5.  CENTRAL REGISTRY (Integration):\n    @[public/js/games-list.json]\n    (File where you MUST register the new game so it appears on the home page)\n\nTASK:\n0. **BUGS FIRST!**: If the `bugs/` folder has content, your only priority is to fix **the first bug in alphabetical order**. Create a `fix/...` branch, resolve **that** bug, update status, and merge. **Do not attempt to fix multiple bugs at once.**\n   - IF THERE ARE NO BUGS, proceed with the next game:\n\n1. **Synchronization**: `git fetch && git pull origin master` (CRITICAL).\n2. Create a new branch: `git checkout -b feature/[game-id]`.\n3. Create the folder and files in 'public/games/[game-id]/'.\n4. Implement logic and design according to the backlog and design rules.\n5. Register the game in 'games-list.json' (CRITICAL).\n6. When finished:\n    - Update `CHANGELOG.md` bumping the version.\n    - Update `master-game-plan.md` and `development-queue.md`.\n    - Document changes: `git commit -m \"feat: add [game-id]\"`.\n7. **Delivery**:\n    - Push: `git push origin feature/[game-id]`.\n    - Request merge to master.\n    - Once in master, push changes (`git push origin master`).\n```"
     },
     "difficulty": "beginner",
     "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/autonomous-game-dev-pipeline.md"
@@ -224,8 +379,8 @@
       "zh": []
     },
     "howto": {
-      "en": "",
-      "zh": ""
+      "en": "### Step 1: Brain Dump Your Goals\n\nThis is the most important step. Text your OpenClaw everything you're trying to accomplish:\n\n```text\nHere are my goals and missions. Remember all of this:\n\nCareer:\n- Grow my YouTube channel to 100k subscribers\n- Launch my SaaS product by Q3\n- Build a community around AI education\n\nPersonal:\n- Read 2 books per month\n- Learn Spanish\n\nBusiness:\n- Scale revenue to $10k/month\n- Build partnerships with 5 companies in my space\n- Automate as much of my workflow as possible\n\nUse this context for everything you do going forward.\n```\n\n### Step 2: Set Up Autonomous Daily Tasks\n\n```text\nEvery morning at 8:00 AM, come up with 4-5 tasks that you can complete\non my computer today that bring me closer to my goals.\n\nThen schedule and complete those tasks yourself. Examples:\n- Research competitors and write analysis reports\n- Draft video scripts based on trending topics\n- Build new features for my apps\n- Write and schedule social media content\n- Research potential business partnerships\n- Build me a surprise mini-app MVP that gets me closer to one of my goals\n\nTrack all tasks on a Kanban board. Update the board as you complete them.\n```\n\n### Step 3: Build the Kanban Board (Optional)\n\n```text\nBuild me a Kanban board in Next.js where I can see all the tasks you're\nworking on. Show columns for To Do, In Progress, and Done. Update it\nin real-time as you complete tasks.\n```",
+      "zh": "### Step 1: Brain Dump Your Goals\n\nThis is the most important step. Text your OpenClaw everything you're trying to accomplish:\n\n```text\nHere are my goals and missions. Remember all of this:\n\nCareer:\n- Grow my YouTube channel to 100k subscribers\n- Launch my SaaS product by Q3\n- Build a community around AI education\n\nPersonal:\n- Read 2 books per month\n- Learn Spanish\n\nBusiness:\n- Scale revenue to $10k/month\n- Build partnerships with 5 companies in my space\n- Automate as much of my workflow as possible\n\nUse this context for everything you do going forward.\n```\n\n### Step 2: Set Up Autonomous Daily Tasks\n\n```text\nEvery morning at 8:00 AM, come up with 4-5 tasks that you can complete\non my computer today that bring me closer to my goals.\n\nThen schedule and complete those tasks yourself. Examples:\n- Research competitors and write analysis reports\n- Draft video scripts based on trending topics\n- Build new features for my apps\n- Write and schedule social media content\n- Research potential business partnerships\n- Build me a surprise mini-app MVP that gets me closer to one of my goals\n\nTrack all tasks on a Kanban board. Update the board as you complete them.\n```\n\n### Step 3: Build the Kanban Board (Optional)\n\n```text\nBuild me a Kanban board in Next.js where I can see all the tasks you're\nworking on. Show columns for To Do, In Progress, and Done. Update it\nin real-time as you complete tasks.\n```"
     },
     "difficulty": "beginner",
     "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/overnight-mini-app-builder.md"
@@ -255,8 +410,8 @@
       "zh": []
     },
     "howto": {
-      "en": "",
-      "zh": ""
+      "en": "1. Install idea-reality-mcp:\n\n```bash\nuvx idea-reality-mcp\n```\n\n2. Add the MCP server to your OpenClaw config:\n\n```json\n{\n  \"mcpServers\": {\n    \"idea-reality\": {\n      \"command\": \"uvx\",\n      \"args\": [\"idea-reality-mcp\"]\n    }\n  }\n}\n```\n\n3. Add this to your OpenClaw agent instructions:\n\n```text\nBefore starting any new project, feature, or tool, always run idea_check first.\n\nRules:\n- If reality_signal > 70: STOP. Report the top 3 competitors with star counts.\n  Ask me if I want to proceed, pivot, or abandon.\n- If reality_signal 30-70: Show me the results and pivot_hints.\n  Suggest a niche angle that existing projects don't cover.\n- If reality_signal < 30: Proceed to build.\n  Mention that the space is open.\n- Always show the reality_signal score and top competitors before writing any code.\n```",
+      "zh": "1. Install idea-reality-mcp:\n\n```bash\nuvx idea-reality-mcp\n```\n\n2. Add the MCP server to your OpenClaw config:\n\n```json\n{\n  \"mcpServers\": {\n    \"idea-reality\": {\n      \"command\": \"uvx\",\n      \"args\": [\"idea-reality-mcp\"]\n    }\n  }\n}\n```\n\n3. Add this to your OpenClaw agent instructions:\n\n```text\nBefore starting any new project, feature, or tool, always run idea_check first.\n\nRules:\n- If reality_signal > 70: STOP. Report the top 3 competitors with star counts.\n  Ask me if I want to proceed, pivot, or abandon.\n- If reality_signal 30-70: Show me the results and pivot_hints.\n  Suggest a niche angle that existing projects don't cover.\n- If reality_signal < 30: Proceed to build.\n  Mention that the space is open.\n- Always show the reality_signal score and top competitors before writing any code.\n```"
     },
     "difficulty": "beginner",
     "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/pre-build-idea-validator.md"
@@ -286,8 +441,8 @@
       "zh": []
     },
     "howto": {
-      "en": "",
-      "zh": ""
+      "en": "### 1. Core Agent Configuration\n\nName your agent and define its access scope in AGENTS.md:\n\n```text",
+      "zh": "### 1. Core Agent Configuration\n\nName your agent and define its access scope in AGENTS.md:\n\n```text"
     },
     "difficulty": "beginner",
     "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/self-healing-home-server.md"
@@ -317,8 +472,8 @@
       "zh": []
     },
     "howto": {
-      "en": "",
-      "zh": ""
+      "en": "1. **Install AionUi**: [AionUi Releases](https://github.com/iOfficeAI/AionUi/releases) (macOS / Windows / Linux).\n2. **Install OpenClaw** (if needed):\n   ```bash\n   npm install -g openclaw@latest\n   openclaw onboard --install-daemon   # optional: daemon for 24/7\n   ```\n3. **Open AionUi**: It auto-detects OpenClaw. If not, use the in-app **OpenClaw Setup** assistant.\n4. **Create a Cowork session** and choose OpenClaw. Same workspace, MCP, and (if enabled) remote channels.\n\nFor remote access or cron, configure channels and automation in AionUi settings.",
+      "zh": "1. **Install AionUi**: [AionUi Releases](https://github.com/iOfficeAI/AionUi/releases) (macOS / Windows / Linux).\n2. **Install OpenClaw** (if needed):\n   ```bash\n   npm install -g openclaw@latest\n   openclaw onboard --install-daemon   # optional: daemon for 24/7\n   ```\n3. **Open AionUi**: It auto-detects OpenClaw. If not, use the in-app **OpenClaw Setup** assistant.\n4. **Create a Cowork session** and choose OpenClaw. Same workspace, MCP, and (if enabled) remote channels.\n\nFor remote access or cron, configure channels and automation in AionUi settings."
     },
     "difficulty": "beginner",
     "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/aionui-cowork-desktop.md"
@@ -355,37 +510,6 @@
     "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/autonomous-project-management.md"
   },
   {
-    "id": "content-factory",
-    "category": "productivity",
-    "icon": "📋",
-    "gradient": [
-      "#34c759",
-      "#30d158"
-    ],
-    "name": {
-      "en": "Multi-Agent Content Factory",
-      "zh": "Multi-Agent Content Factory"
-    },
-    "summary": {
-      "en": "You're a content creator juggling research, writing, and design across multiple platforms. Each step — finding trending",
-      "zh": "You're a content creator juggling research, writing, and design across multiple platforms. Each step — finding trending"
-    },
-    "description": {
-      "en": "You're a content creator juggling research, writing, and design across multiple platforms. Each step — finding trending topics, writing scripts, generating thumbnails — eats hours of your day. What if",
-      "zh": "You're a content creator juggling research, writing, and design across multiple platforms. Each step — finding trending topics, writing scripts, generating thumbnails — eats hours of your day. What if"
-    },
-    "skills": {
-      "en": [],
-      "zh": []
-    },
-    "howto": {
-      "en": "",
-      "zh": ""
-    },
-    "difficulty": "beginner",
-    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/content-factory.md"
-  },
-  {
     "id": "custom-morning-brief",
     "category": "productivity",
     "icon": "📋",
@@ -410,8 +534,8 @@
       "zh": []
     },
     "howto": {
-      "en": "",
-      "zh": ""
+      "en": "1. Connect OpenClaw to your messaging platform and task manager.\n\n2. Prompt OpenClaw:\n```text\nI want to set up a regular morning brief. Every morning at 8:00 AM,\nsend me a report through Telegram.\n\nI want this report to include:\n1. News stories relevant to my interests (AI, startups, tech)\n2. Ideas for content I can create today\n3. Tasks I need to complete today (pull from my to-do list)\n4. Recommendations for tasks you can complete for me today\n\nFor the content ideas, write full draft scripts/outlines — not just titles.\n```\n\n3. OpenClaw will schedule this automatically. Verify it's working by checking your messages the next morning.\n\n4. Customize over time — just text your bot:\n```text\nAdd weather forecast to my morning brief.\nStop including general news, focus only on AI.\nInclude a motivational quote each morning.\n```\n\n5. If you can't think of what to include, you don't have to — just say:\n```text\nI want this report to include things relevant to me.\nThink of what would be most helpful to put in this report.\n```",
+      "zh": "1. Connect OpenClaw to your messaging platform and task manager.\n\n2. Prompt OpenClaw:\n```text\nI want to set up a regular morning brief. Every morning at 8:00 AM,\nsend me a report through Telegram.\n\nI want this report to include:\n1. News stories relevant to my interests (AI, startups, tech)\n2. Ideas for content I can create today\n3. Tasks I need to complete today (pull from my to-do list)\n4. Recommendations for tasks you can complete for me today\n\nFor the content ideas, write full draft scripts/outlines — not just titles.\n```\n\n3. OpenClaw will schedule this automatically. Verify it's working by checking your messages the next morning.\n\n4. Customize over time — just text your bot:\n```text\nAdd weather forecast to my morning brief.\nStop including general news, focus only on AI.\nInclude a motivational quote each morning.\n```\n\n5. If you can't think of what to include, you don't have to — just say:\n```text\nI want this report to include things relevant to me.\nThink of what would be most helpful to put in this report.\n```"
     },
     "difficulty": "beginner",
     "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/custom-morning-brief.md"
@@ -457,8 +581,8 @@
       ]
     },
     "howto": {
-      "en": "",
-      "zh": ""
+      "en": "1. Set up a metrics database:\n```sql\nCREATE TABLE metrics (\n  id SERIAL PRIMARY KEY,\n  source TEXT, -- e.g., \"github\", \"twitter\", \"polymarket\"\n  metric_name TEXT,\n  metric_value NUMERIC,\n  timestamp TIMESTAMPTZ DEFAULT NOW()\n);\n\nCREATE TABLE alerts (\n  id SERIAL PRIMARY KEY,\n  source TEXT,\n  condition TEXT,\n  threshold NUMERIC,\n  last_triggered TIMESTAMPTZ\n);\n```\n\n2. Create a Discord channel for dashboard updates (e.g., #dashboard).\n\n3. Prompt OpenClaw:\n```text\nYou are my dynamic dashboard manager. Every 15 minutes, run a cron job to:\n\n1. Spawn sub-agents in parallel to fetch data from:\n   - GitHub: stars, forks, open issues, commits (past 24h)\n   - Twitter: mentions of \"@username\", sentiment analysis\n   - Polymarket: volume for tracked markets\n   - System: CPU, memory, disk usage via shell commands\n\n2. Each sub-agent writes results to the metrics database.\n\n3. Aggregate all results and format a dashboard:\n\n📊 **Dashboard Update** — [timestamp]\n\n**GitHub**\n- ⭐ Stars: [count] (+[change])\n- 🍴 Forks: [count]\n- 🐛 Open Issues: [count]\n- 💻 Commits (24h): [count]\n\n**Social Media**\n- 🐦 Twitter Mentions: [count]\n- 📈 Sentiment: [positive/negative/neutral]\n\n**Markets**\n- 📊 Polymarket Volume: $[amount]\n- 🔥 Trending: [market names]\n\n**System Health**\n- 💻 CPU: [usage]%\n- 🧠 Memory: [usage]%\n- 💾 Disk: [usage]%\n\n4. Post to Discord #dashboard.\n\n5. Check alert conditions:\n   - If GitHub stars change > 50 in 1 hour → ping me\n   - If system CPU > 90% → alert\n   - If negative sentiment spike on Twitter → notify\n\nStore all metrics in the database for historical analysis.\n```\n\n4. Optional: Use Canvas to render an HTML dashboard with charts and graphs.\n\n5. Query historical data: \"Show me GitHub star growth over the past 30 days.\"",
+      "zh": "1. Set up a metrics database:\n```sql\nCREATE TABLE metrics (\n  id SERIAL PRIMARY KEY,\n  source TEXT, -- e.g., \"github\", \"twitter\", \"polymarket\"\n  metric_name TEXT,\n  metric_value NUMERIC,\n  timestamp TIMESTAMPTZ DEFAULT NOW()\n);\n\nCREATE TABLE alerts (\n  id SERIAL PRIMARY KEY,\n  source TEXT,\n  condition TEXT,\n  threshold NUMERIC,\n  last_triggered TIMESTAMPTZ\n);\n```\n\n2. Create a Discord channel for dashboard updates (e.g., #dashboard).\n\n3. Prompt OpenClaw:\n```text\nYou are my dynamic dashboard manager. Every 15 minutes, run a cron job to:\n\n1. Spawn sub-agents in parallel to fetch data from:\n   - GitHub: stars, forks, open issues, commits (past 24h)\n   - Twitter: mentions of \"@username\", sentiment analysis\n   - Polymarket: volume for tracked markets\n   - System: CPU, memory, disk usage via shell commands\n\n2. Each sub-agent writes results to the metrics database.\n\n3. Aggregate all results and format a dashboard:\n\n📊 **Dashboard Update** — [timestamp]\n\n**GitHub**\n- ⭐ Stars: [count] (+[change])\n- 🍴 Forks: [count]\n- 🐛 Open Issues: [count]\n- 💻 Commits (24h): [count]\n\n**Social Media**\n- 🐦 Twitter Mentions: [count]\n- 📈 Sentiment: [positive/negative/neutral]\n\n**Markets**\n- 📊 Polymarket Volume: $[amount]\n- 🔥 Trending: [market names]\n\n**System Health**\n- 💻 CPU: [usage]%\n- 🧠 Memory: [usage]%\n- 💾 Disk: [usage]%\n\n4. Post to Discord #dashboard.\n\n5. Check alert conditions:\n   - If GitHub stars change > 50 in 1 hour → ping me\n   - If system CPU > 90% → alert\n   - If negative sentiment spike on Twitter → notify\n\nStore all metrics in the database for historical analysis.\n```\n\n4. Optional: Use Canvas to render an HTML dashboard with charts and graphs.\n\n5. Query historical data: \"Show me GitHub star growth over the past 30 days.\""
     },
     "difficulty": "advanced",
     "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/dynamic-dashboard.md"
@@ -488,8 +612,8 @@
       "zh": []
     },
     "howto": {
-      "en": "",
-      "zh": ""
+      "en": "1. Install and configure SuperCall following the [setup guide](https://github.com/xonder/supercall#configuration). Make sure hooks are enabled in your OpenClaw config.\n\n2. Prepare your guest list. You can paste it directly in chat or keep it in a file:\n\n```text\nGuest List — Summer BBQ, Saturday June 14th, 4 PM, 23 Oak Street\n\n- Sarah Johnson: +15551234567\n- Mike Chen: +15559876543\n- Rachel Torres: +15555551234\n- David Kim: +15558887777\n```\n\n3. Prompt OpenClaw:\n\n```text\nI need you to confirm attendance for my event. Here are the details:\n\nEvent: Summer BBQ\nDate: Saturday, June 14th at 4 PM\nLocation: 23 Oak Street\n\nHere is my guest list:\n<paste your guest list here>\n\nFor each guest, use supercall to call them. Use the persona \"Jamie, event coordinator\nfor [your name]\". The goal for each call is to confirm whether they're attending,\nand note any dietary restrictions, plus-ones, or other comments.\n\nAfter each call, log the result. Once all calls are done, give me a full summary:\n- Who confirmed\n- Who declined\n- Who didn't answer\n- Any notes or special requests from each guest\n```\n\n4. OpenClaw will call each guest one by one using SuperCall, then compile the results. You can check in on progress at any time by asking for a status update.",
+      "zh": "1. Install and configure SuperCall following the [setup guide](https://github.com/xonder/supercall#configuration). Make sure hooks are enabled in your OpenClaw config.\n\n2. Prepare your guest list. You can paste it directly in chat or keep it in a file:\n\n```text\nGuest List — Summer BBQ, Saturday June 14th, 4 PM, 23 Oak Street\n\n- Sarah Johnson: +15551234567\n- Mike Chen: +15559876543\n- Rachel Torres: +15555551234\n- David Kim: +15558887777\n```\n\n3. Prompt OpenClaw:\n\n```text\nI need you to confirm attendance for my event. Here are the details:\n\nEvent: Summer BBQ\nDate: Saturday, June 14th at 4 PM\nLocation: 23 Oak Street\n\nHere is my guest list:\n<paste your guest list here>\n\nFor each guest, use supercall to call them. Use the persona \"Jamie, event coordinator\nfor [your name]\". The goal for each call is to confirm whether they're attending,\nand note any dietary restrictions, plus-ones, or other comments.\n\nAfter each call, log the result. Once all calls are done, give me a full summary:\n- Who confirmed\n- Who declined\n- Who didn't answer\n- Any notes or special requests from each guest\n```\n\n4. OpenClaw will call each guest one by one using SuperCall, then compile the results. You can check in on progress at any time by asking for a status update."
     },
     "difficulty": "beginner",
     "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/event-guest-confirmation.md"
@@ -519,8 +643,8 @@
       "zh": []
     },
     "howto": {
-      "en": "",
-      "zh": ""
+      "en": "### 1. Calendar Aggregation\n\nConfigure OpenClaw to pull from all family calendar sources:\n\n```text",
+      "zh": "### 1. Calendar Aggregation\n\nConfigure OpenClaw to pull from all family calendar sources:\n\n```text"
     },
     "difficulty": "beginner",
     "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/family-calendar-household-assistant.md"
@@ -550,8 +674,8 @@
       "zh": []
     },
     "howto": {
-      "en": "",
-      "zh": ""
+      "en": "1. Define your habits and check-in schedule:\n```text\nI want you to be my accountability coach. Track these daily habits for me:\n\n1. Morning workout (check in at 7:30 AM)\n2. Read for 30 minutes (check in at 8:00 PM)\n3. No social media before noon (check in at 12:30 PM)\n4. Drink 8 glasses of water (check in at 6:00 PM)\n\nSend me a Telegram message at each check-in time asking if I completed\nthe habit. Keep track of my streaks in a local file.\n```\n\n2. Set up the tracking and tone:\n```text\nWhen I confirm a habit, respond with a short encouraging message and\nmention my current streak. Example: \"Day 12 of morning workouts. Solid.\"\n\nWhen I miss a habit, don't guilt-trip me. Just acknowledge it and remind\nme why I started. If I miss 3 days in a row, send a longer motivational\nmessage and ask if I want to adjust the goal.\n\nIf I don't respond to a check-in within 2 hours, send one follow-up.\nDon't spam me after that.\n```\n\n3. Add weekly reports:\n```text\nEvery Sunday at 10 AM, send me a weekly summary:\n- Completion rate for each habit\n- Current streaks\n- Best day and worst day\n- One pattern you noticed (e.g., \"You always skip reading on Fridays\")\n- One suggestion for next week\n\nStore all data in ~/habits/log.json so I can review history anytime.\n```\n\n4. Optional — visual dashboard via Google Sheets:\n```text\nAt the end of each day, update a Google Sheet with today's habit data.\nColumns: Date, Workout, Reading, No Social Media, Water, Notes.\nMark completed habits with ✓ and missed with ✗.\n```",
+      "zh": "1. Define your habits and check-in schedule:\n```text\nI want you to be my accountability coach. Track these daily habits for me:\n\n1. Morning workout (check in at 7:30 AM)\n2. Read for 30 minutes (check in at 8:00 PM)\n3. No social media before noon (check in at 12:30 PM)\n4. Drink 8 glasses of water (check in at 6:00 PM)\n\nSend me a Telegram message at each check-in time asking if I completed\nthe habit. Keep track of my streaks in a local file.\n```\n\n2. Set up the tracking and tone:\n```text\nWhen I confirm a habit, respond with a short encouraging message and\nmention my current streak. Example: \"Day 12 of morning workouts. Solid.\"\n\nWhen I miss a habit, don't guilt-trip me. Just acknowledge it and remind\nme why I started. If I miss 3 days in a row, send a longer motivational\nmessage and ask if I want to adjust the goal.\n\nIf I don't respond to a check-in within 2 hours, send one follow-up.\nDon't spam me after that.\n```\n\n3. Add weekly reports:\n```text\nEvery Sunday at 10 AM, send me a weekly summary:\n- Completion rate for each habit\n- Current streaks\n- Best day and worst day\n- One pattern you noticed (e.g., \"You always skip reading on Fridays\")\n- One suggestion for next week\n\nStore all data in ~/habits/log.json so I can review history anytime.\n```\n\n4. Optional — visual dashboard via Google Sheets:\n```text\nAt the end of each day, update a Google Sheet with today's habit data.\nColumns: Date, Workout, Reading, No Social Media, Water, Notes.\nMark completed habits with ✓ and missed with ✗.\n```"
     },
     "difficulty": "beginner",
     "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/habit-tracker-accountability-coach.md"
@@ -581,8 +705,8 @@
       "zh": []
     },
     "howto": {
-      "en": "",
-      "zh": ""
+      "en": "1. Create a Telegram topic called \"health-tracker\" (or similar).\n2. Create a log file: `~/clawd/memory/health-log.md`\n3. Prompt OpenClaw:\n```text\nWhen I message in the \"health-tracker\" topic:\n1. Parse the message for food items and symptoms\n2. Log to ~/clawd/memory/health-log.md with timestamp\n3. Confirm what was logged\n\nSet up 3 daily reminders:\n- 8 AM: \"🍳 Log your breakfast\"\n- 1 PM: \"🥗 Log your lunch\"\n- 7 PM: \"🍽️ Log your dinner and any symptoms\"\n\nEvery Sunday, analyze the past week's log and identify patterns:\n- Which foods correlate with symptoms?\n- Are there time-of-day patterns?\n- Any clear triggers?\n\nPost the analysis to the health-tracker topic.\n```\n\n4. Optional: Add a memory file for OpenClaw to track known triggers and update it as patterns emerge.",
+      "zh": "1. Create a Telegram topic called \"health-tracker\" (or similar).\n2. Create a log file: `~/clawd/memory/health-log.md`\n3. Prompt OpenClaw:\n```text\nWhen I message in the \"health-tracker\" topic:\n1. Parse the message for food items and symptoms\n2. Log to ~/clawd/memory/health-log.md with timestamp\n3. Confirm what was logged\n\nSet up 3 daily reminders:\n- 8 AM: \"🍳 Log your breakfast\"\n- 1 PM: \"🥗 Log your lunch\"\n- 7 PM: \"🍽️ Log your dinner and any symptoms\"\n\nEvery Sunday, analyze the past week's log and identify patterns:\n- Which foods correlate with symptoms?\n- Are there time-of-day patterns?\n- Any clear triggers?\n\nPost the analysis to the health-tracker topic.\n```\n\n4. Optional: Add a memory file for OpenClaw to track known triggers and update it as patterns emerge."
     },
     "difficulty": "beginner",
     "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/health-symptom-tracker.md"
@@ -612,8 +736,8 @@
       "zh": []
     },
     "howto": {
-      "en": "",
-      "zh": ""
+      "en": "1. [optional] Create a new gmail specifically for OpenClaw.\n2. [optional] Unsubscribe from all newsletters from your main email and subscribe to them using the OpenClaw email.\n3. Install the skill and make sure it works. \n4. Instruct OpenClaw:\n```txt\nI want you to run a cron job everyday at 8 p.m. to read all the newsletter emails of the past 24 hours and give me a digest of the most important bits along with links to read more. Then ask for my feedback on whether you picked good bits, and update your memory based on my preferences for better digests in the future jobs.\n```",
+      "zh": "1. [optional] Create a new gmail specifically for OpenClaw.\n2. [optional] Unsubscribe from all newsletters from your main email and subscribe to them using the OpenClaw email.\n3. Install the skill and make sure it works. \n4. Instruct OpenClaw:\n```txt\nI want you to run a cron job everyday at 8 p.m. to read all the newsletter emails of the past 24 hours and give me a digest of the most important bits along with links to read more. Then ask for my feedback on whether you picked good bits, and update your memory based on my preferences for better digests in the future jobs.\n```"
     },
     "difficulty": "beginner",
     "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/inbox-declutter.md"
@@ -651,8 +775,8 @@
       ]
     },
     "howto": {
-      "en": "",
-      "zh": ""
+      "en": "1. Install with one command:\n\n```bash\nnpx denchclaw\n```\n\n2. Complete the onboarding wizard. DenchClaw creates a dedicated OpenClaw profile called `dench` and starts a gateway on port 19001.\n\n3. Open `localhost:3100` in your browser. On Safari, add it to your Dock as a PWA.\n\n4. Start talking to it:\n\n```text\nHey, create a \"Leads\" object with fields: Name, Email, Company, Status (New/Contacted/Qualified/Won/Lost), and Notes. Import this CSV of leads I downloaded from Apollo.\n```\n\n```text\nShow me all leads where Status is \"Contacted\" and sort by last updated. Switch to Kanban view grouped by Status.\n```\n\n```text\nGo to my LinkedIn, find the last 20 people who viewed my profile, and add them as leads with their company info enriched.\n```\n\n```text\nDraft a personalized outreach email to each lead in \"New\" status based on their company's recent news. Save the drafts in a new \"Outreach Drafts\" document.\n```\n\n5. You can also use it from Telegram or any connected messaging platform — manage your pipeline from your phone while on the go.",
+      "zh": "1. Install with one command:\n\n```bash\nnpx denchclaw\n```\n\n2. Complete the onboarding wizard. DenchClaw creates a dedicated OpenClaw profile called `dench` and starts a gateway on port 19001.\n\n3. Open `localhost:3100` in your browser. On Safari, add it to your Dock as a PWA.\n\n4. Start talking to it:\n\n```text\nHey, create a \"Leads\" object with fields: Name, Email, Company, Status (New/Contacted/Qualified/Won/Lost), and Notes. Import this CSV of leads I downloaded from Apollo.\n```\n\n```text\nShow me all leads where Status is \"Contacted\" and sort by last updated. Switch to Kanban view grouped by Status.\n```\n\n```text\nGo to my LinkedIn, find the last 20 people who viewed my profile, and add them as leads with their company info enriched.\n```\n\n```text\nDraft a personalized outreach email to each lead in \"New\" status based on their company's recent news. Save the drafts in a new \"Outreach Drafts\" document.\n```\n\n5. You can also use it from Telegram or any connected messaging platform — manage your pipeline from your phone while on the go."
     },
     "difficulty": "intermediate",
     "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/local-crm-framework.md"
@@ -682,8 +806,8 @@
       "zh": []
     },
     "howto": {
-      "en": "",
-      "zh": ""
+      "en": "1. Choose your transcript source. The simplest approach is pasting the transcript directly into chat. For automation, set up a folder watch or API integration.\n\n2. Prompt OpenClaw:\n```text\nI just finished a meeting. Here's the transcript:\n\n[paste transcript or point to file]\n\nPlease:\n1. Write a concise summary (max 5 bullet points) covering key decisions and topics.\n2. Extract ALL action items. For each one, identify:\n   - What needs to be done\n   - Who is responsible (match names to my team)\n   - Deadline (if mentioned, otherwise mark as \"TBD\")\n3. Create a Jira ticket for each action item, assigned to the right person.\n4. Post the full summary to #meeting-notes in Slack.\n```\n\n3. For fully automated pipeline (transcript folder watch):\n```text\nSet up a recurring task: every 30 minutes, check ~/meeting-transcripts/ for\nnew .txt or .vtt files. When you find one:\n\n1. Parse the transcript into a structured summary with action items.\n2. Create tasks in Linear for each action item.\n3. Post the summary to #team-updates in Slack.\n4. Move the processed file to ~/meeting-transcripts/processed/.\n\nFor each action item with a deadline, set a reminder to ping the assignee\nin Slack one day before it's due.\n```\n\n4. Customize the output format:\n```text\nWhen writing meeting summaries, always use this structure:\n- **Date & Attendees** at the top\n- **Key Decisions** — numbered list of what was decided\n- **Action Items** — table with columns: Task, Owner, Deadline, Status\n- **Open Questions** — anything unresolved that needs follow-up\n```",
+      "zh": "1. Choose your transcript source. The simplest approach is pasting the transcript directly into chat. For automation, set up a folder watch or API integration.\n\n2. Prompt OpenClaw:\n```text\nI just finished a meeting. Here's the transcript:\n\n[paste transcript or point to file]\n\nPlease:\n1. Write a concise summary (max 5 bullet points) covering key decisions and topics.\n2. Extract ALL action items. For each one, identify:\n   - What needs to be done\n   - Who is responsible (match names to my team)\n   - Deadline (if mentioned, otherwise mark as \"TBD\")\n3. Create a Jira ticket for each action item, assigned to the right person.\n4. Post the full summary to #meeting-notes in Slack.\n```\n\n3. For fully automated pipeline (transcript folder watch):\n```text\nSet up a recurring task: every 30 minutes, check ~/meeting-transcripts/ for\nnew .txt or .vtt files. When you find one:\n\n1. Parse the transcript into a structured summary with action items.\n2. Create tasks in Linear for each action item.\n3. Post the summary to #team-updates in Slack.\n4. Move the processed file to ~/meeting-transcripts/processed/.\n\nFor each action item with a deadline, set a reminder to ping the assignee\nin Slack one day before it's due.\n```\n\n4. Customize the output format:\n```text\nWhen writing meeting summaries, always use this structure:\n- **Date & Attendees** at the top\n- **Key Decisions** — numbered list of what was decided\n- **Action Items** — table with columns: Task, Owner, Deadline, Status\n- **Open Questions** — anything unresolved that needs follow-up\n```"
     },
     "difficulty": "beginner",
     "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/meeting-notes-action-items.md"
@@ -713,73 +837,11 @@
       "zh": []
     },
     "howto": {
-      "en": "",
-      "zh": ""
+      "en": "### 1. Shared Memory Structure\n\n```text\nteam/\n├── GOALS.md           # Current OKRs and priorities (all agents read)\n├── DECISIONS.md       # Key decisions log (append-only)\n├── PROJECT_STATUS.md  # Current project state (updated by all)\n├── agents/\n│   ├── milo/          # Milo's private context and notes\n│   ├── josh/          # Josh's private context\n│   ├── marketing/     # Marketing agent's research\n│   └── dev/           # Dev agent's technical notes\n```\n\n### 2. Telegram Routing\n\nConfigure a single Telegram group where all agents listen, but each responds only when tagged:\n\n```text",
+      "zh": "### 1. Shared Memory Structure\n\n```text\nteam/\n├── GOALS.md           # Current OKRs and priorities (all agents read)\n├── DECISIONS.md       # Key decisions log (append-only)\n├── PROJECT_STATUS.md  # Current project state (updated by all)\n├── agents/\n│   ├── milo/          # Milo's private context and notes\n│   ├── josh/          # Josh's private context\n│   ├── marketing/     # Marketing agent's research\n│   └── dev/           # Dev agent's technical notes\n```\n\n### 2. Telegram Routing\n\nConfigure a single Telegram group where all agents listen, but each responds only when tagged:\n\n```text"
     },
     "difficulty": "beginner",
     "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/multi-agent-team.md"
-  },
-  {
-    "id": "multi-channel-assistant",
-    "category": "productivity",
-    "icon": "📋",
-    "gradient": [
-      "#34c759",
-      "#30d158"
-    ],
-    "name": {
-      "en": "Multi-Channel Personal Assistant",
-      "zh": "Multi-Channel Personal Assistant"
-    },
-    "summary": {
-      "en": "Context-switching between apps to manage tasks, schedule events, send messages, and track work is exhausting. You want o",
-      "zh": "Context-switching between apps to manage tasks, schedule events, send messages, and track work is exhausting. You want o"
-    },
-    "description": {
-      "en": "Context-switching between apps to manage tasks, schedule events, send messages, and track work is exhausting. You want one interface that routes to all your tools. This workflow consolidates everythin",
-      "zh": "Context-switching between apps to manage tasks, schedule events, send messages, and track work is exhausting. You want one interface that routes to all your tools. This workflow consolidates everythin"
-    },
-    "skills": {
-      "en": [],
-      "zh": []
-    },
-    "howto": {
-      "en": "",
-      "zh": ""
-    },
-    "difficulty": "beginner",
-    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/multi-channel-assistant.md"
-  },
-  {
-    "id": "multi-channel-customer-service",
-    "category": "productivity",
-    "icon": "📋",
-    "gradient": [
-      "#34c759",
-      "#30d158"
-    ],
-    "name": {
-      "en": "Multi-Channel AI Customer Service Platform",
-      "zh": "Multi-Channel AI Customer Service Platform"
-    },
-    "summary": {
-      "en": "Small businesses juggle WhatsApp, Instagram DMs, emails, and Google Reviews across multiple apps. Customers expect insta",
-      "zh": "Small businesses juggle WhatsApp, Instagram DMs, emails, and Google Reviews across multiple apps. Customers expect insta"
-    },
-    "description": {
-      "en": "Small businesses juggle WhatsApp, Instagram DMs, emails, and Google Reviews across multiple apps. Customers expect instant responses 24/7, but hiring staff for round-the-clock coverage is expensive. T",
-      "zh": "Small businesses juggle WhatsApp, Instagram DMs, emails, and Google Reviews across multiple apps. Customers expect instant responses 24/7, but hiring staff for round-the-clock coverage is expensive. T"
-    },
-    "skills": {
-      "en": [],
-      "zh": []
-    },
-    "howto": {
-      "en": "",
-      "zh": ""
-    },
-    "difficulty": "beginner",
-    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/multi-channel-customer-service.md"
   },
   {
     "id": "n8n-workflow-orchestration",
@@ -806,8 +868,8 @@
       "zh": []
     },
     "howto": {
-      "en": "1. **Agent designs the workflow**: Tell OpenClaw what you need (e.g., \"create a workflow that sends a Slack message when a new GitHub issue is labeled `urgent`\")\n2. **Agent builds it in n8n**: OpenClaw creates the workflow via n8n's API, including an incoming webhook trigger\n3. **You add credentials**: Open n8n's UI, add your Slack token / GitHub token manually\n4. **You lock the workflow**: Prevent further modifications by the agent\n5. **Agent calls the webhook**: From now on, OpenClaw calls `http://n8n:5678/webhook/my-workflow` with a JSON payload — it never sees the API key\n\n```text\n┌──────────────┐     webhook call      ┌─────────────────┐     API call     ┌──────────────┐\n│   OpenClaw   │ ───────────────────→  │   n8n Workflow   │ ─────────────→  │  External    │\n│   (agent)    │   (no credentials)    │  (locked, with   │  (credentials   │  Service     │\n│              │                       │   API keys)      │   stay here)    │  (Slack, etc)│\n└──────────────┘                       └─────────────────┘                  └──────────────┘\n```",
-      "zh": "1. **Agent designs the workflow**: Tell OpenClaw what you need (e.g., \"create a workflow that sends a Slack message when a new GitHub issue is labeled `urgent`\")\n2. **Agent builds it in n8n**: OpenClaw creates the workflow via n8n's API, including an incoming webhook trigger\n3. **You add credentials**: Open n8n's UI, add your Slack token / GitHub token manually\n4. **You lock the workflow**: Prevent further modifications by the agent\n5. **Agent calls the webhook**: From now on, OpenClaw calls `http://n8n:5678/webhook/my-workflow` with a JSON payload — it never sees the API key\n\n```text\n┌──────────────┐     webhook call      ┌─────────────────┐     API call     ┌──────────────┐\n│   OpenClaw   │ ───────────────────→  │   n8n Workflow   │ ─────────────→  │  External    │\n│   (agent)    │   (no credentials)    │  (locked, with   │  (credentials   │  Service     │\n│              │                       │   API keys)      │   stay here)    │  (Slack, etc)│\n└──────────────┘                       └─────────────────┘                  └──────────────┘\n```"
+      "en": "1. **Agent designs the workflow**: Tell OpenClaw what you need (e.g., \"create a workflow that sends a Slack message when a new GitHub issue is labeled `urgent`\")\n2. **Agent builds it in n8n**: OpenClaw creates the workflow via n8n's API, including an incoming webhook trigger\n3. **You add credentials**: Open n8n's UI, add your Slack token / GitHub token manually\n4. **You lock the workflow**: Prevent further modifications by the agent\n5. **Agent calls the webhook**: From now on, OpenClaw calls `http://n8n:5678/webhook/my-workflow` with a JSON payload — it never sees the API key\n\n```text\n┌──────────────┐     webhook call      ┌─────────────────┐     API call     ┌──────────────┐\n│   OpenClaw   │ ───────────────────→  │   n8n Workflow   │ ─────────────→  │  External    │\n│   (agent)    │   (no credentials)    │  (locked, with   │  (credentials   │  Service     │\n│              │                       │   API keys)      │   stay here)    │  (Slack, etc)│\n└──────────────┘                       └─────────────────┘                  └──────────────┘\n```\n\n\n### Option 1: Pre-configured Docker Stack\n\nA community-maintained Docker Compose setup ([openclaw-n8n-stack](https://github.com/caprihan/openclaw-n8n-stack)) pre-wires everything on a shared Docker network:\n\n```bash\ngit clone https://github.com/caprihan/openclaw-n8n-stack.git\ncd openclaw-n8n-stack\ncp .env.template .env\n# Add your Anthropic API key to .env\ndocker-compose up -d\n```\n\nThis gives you:\n- OpenClaw on port 3456\n- n8n on port 5678\n- Shared Docker network so OpenClaw can call `http://n8n:5678/webhook/...` directly\n- Pre-built workflow templates (multi-LLM fact-checking, email triage, social monitoring)\n\n### Option 2: Manual Setup\n\n1. Install n8n (`npm install n8n -g` or run via Docker)\n2. Configure OpenClaw to know the n8n base URL\n3. Add this to your AGENTS.md:\n\n```text",
+      "zh": "1. **Agent designs the workflow**: Tell OpenClaw what you need (e.g., \"create a workflow that sends a Slack message when a new GitHub issue is labeled `urgent`\")\n2. **Agent builds it in n8n**: OpenClaw creates the workflow via n8n's API, including an incoming webhook trigger\n3. **You add credentials**: Open n8n's UI, add your Slack token / GitHub token manually\n4. **You lock the workflow**: Prevent further modifications by the agent\n5. **Agent calls the webhook**: From now on, OpenClaw calls `http://n8n:5678/webhook/my-workflow` with a JSON payload — it never sees the API key\n\n```text\n┌──────────────┐     webhook call      ┌─────────────────┐     API call     ┌──────────────┐\n│   OpenClaw   │ ───────────────────→  │   n8n Workflow   │ ─────────────→  │  External    │\n│   (agent)    │   (no credentials)    │  (locked, with   │  (credentials   │  Service     │\n│              │                       │   API keys)      │   stay here)    │  (Slack, etc)│\n└──────────────┘                       └─────────────────┘                  └──────────────┘\n```\n\n\n### Option 1: Pre-configured Docker Stack\n\nA community-maintained Docker Compose setup ([openclaw-n8n-stack](https://github.com/caprihan/openclaw-n8n-stack)) pre-wires everything on a shared Docker network:\n\n```bash\ngit clone https://github.com/caprihan/openclaw-n8n-stack.git\ncd openclaw-n8n-stack\ncp .env.template .env\n# Add your Anthropic API key to .env\ndocker-compose up -d\n```\n\nThis gives you:\n- OpenClaw on port 3456\n- n8n on port 5678\n- Shared Docker network so OpenClaw can call `http://n8n:5678/webhook/...` directly\n- Pre-built workflow templates (multi-LLM fact-checking, email triage, social monitoring)\n\n### Option 2: Manual Setup\n\n1. Install n8n (`npm install n8n -g` or run via Docker)\n2. Configure OpenClaw to know the n8n base URL\n3. Add this to your AGENTS.md:\n\n```text"
     },
     "difficulty": "beginner",
     "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/n8n-workflow-orchestration.md"
@@ -837,8 +899,8 @@
       "zh": []
     },
     "howto": {
-      "en": "",
-      "zh": ""
+      "en": "1. Create a CRM database:\n```sql\nCREATE TABLE contacts (\n  id INTEGER PRIMARY KEY,\n  name TEXT,\n  email TEXT,\n  first_seen TEXT,\n  last_contact TEXT,\n  interaction_count INTEGER,\n  notes TEXT\n);\n```\n2. Set up a Telegram topic called \"personal-crm\" for queries.\n3. Prompt OpenClaw:\n```text\nRun a daily cron job at 6 AM to:\n1. Scan my Gmail and Calendar for the past 24 hours\n2. Extract new contacts and update existing ones\n3. Log interactions (meetings, emails) with timestamps and context\n\nAlso, every morning at 7 AM:\n1. Check my calendar for today's meetings\n2. For each external attendee, search my CRM and email history\n3. Deliver a briefing to Telegram with: who they are, when we last spoke, what we discussed, and any follow-up items\n\nWhen I ask about a contact in the personal-crm topic, search the database and give me everything you know.\n```",
+      "zh": "1. Create a CRM database:\n```sql\nCREATE TABLE contacts (\n  id INTEGER PRIMARY KEY,\n  name TEXT,\n  email TEXT,\n  first_seen TEXT,\n  last_contact TEXT,\n  interaction_count INTEGER,\n  notes TEXT\n);\n```\n2. Set up a Telegram topic called \"personal-crm\" for queries.\n3. Prompt OpenClaw:\n```text\nRun a daily cron job at 6 AM to:\n1. Scan my Gmail and Calendar for the past 24 hours\n2. Extract new contacts and update existing ones\n3. Log interactions (meetings, emails) with timestamps and context\n\nAlso, every morning at 7 AM:\n1. Check my calendar for today's meetings\n2. For each external attendee, search my CRM and email history\n3. Deliver a briefing to Telegram with: who they are, when we last spoke, what we discussed, and any follow-up items\n\nWhen I ask about a contact in the personal-crm topic, search the database and give me everything you know.\n```"
     },
     "difficulty": "beginner",
     "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/personal-crm.md"
@@ -878,8 +940,8 @@
       ]
     },
     "howto": {
-      "en": "",
-      "zh": ""
+      "en": "```\nYou are available via phone. When I call, greet me and ask how I can help.\n\nFor calendar queries: \"What's on my calendar today?\"\nFor Jira updates: \"Show me my open tickets\"\nFor web search: \"Search for latest news on AI agents\"\n```",
+      "zh": "```\nYou are available via phone. When I call, greet me and ask how I can help.\n\nFor calendar queries: \"What's on my calendar today?\"\nFor Jira updates: \"Show me my open tickets\"\nFor web search: \"Search for latest news on AI agents\"\n```"
     },
     "difficulty": "intermediate",
     "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/phone-based-personal-assistant.md"
@@ -920,37 +982,6 @@
     "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/phone-call-notifications.md"
   },
   {
-    "id": "podcast-production-pipeline",
-    "category": "productivity",
-    "icon": "📋",
-    "gradient": [
-      "#34c759",
-      "#30d158"
-    ],
-    "name": {
-      "en": "Podcast Production Pipeline",
-      "zh": "Podcast Production Pipeline"
-    },
-    "summary": {
-      "en": "You have a podcast idea, maybe even a backlog of episode topics. But between researching guests, writing outlines, draft",
-      "zh": "You have a podcast idea, maybe even a backlog of episode topics. But between researching guests, writing outlines, draft"
-    },
-    "description": {
-      "en": "You have a podcast idea, maybe even a backlog of episode topics. But between researching guests, writing outlines, drafting intros, generating show notes, and writing social media posts for promotion ",
-      "zh": "You have a podcast idea, maybe even a backlog of episode topics. But between researching guests, writing outlines, drafting intros, generating show notes, and writing social media posts for promotion "
-    },
-    "skills": {
-      "en": [],
-      "zh": []
-    },
-    "howto": {
-      "en": "",
-      "zh": ""
-    },
-    "difficulty": "beginner",
-    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/podcast-production-pipeline.md"
-  },
-  {
     "id": "project-state-management",
     "category": "productivity",
     "icon": "📋",
@@ -987,8 +1018,8 @@
       ]
     },
     "howto": {
-      "en": "",
-      "zh": ""
+      "en": "1. Set up a project state database:\n```sql\nCREATE TABLE projects (\n  id SERIAL PRIMARY KEY,\n  name TEXT UNIQUE,\n  status TEXT, -- e.g., \"active\", \"blocked\", \"completed\"\n  current_phase TEXT,\n  last_update TIMESTAMPTZ DEFAULT NOW()\n);\n\nCREATE TABLE events (\n  id SERIAL PRIMARY KEY,\n  project_id INTEGER REFERENCES projects(id),\n  event_type TEXT, -- e.g., \"progress\", \"blocker\", \"decision\", \"pivot\"\n  description TEXT,\n  context TEXT,\n  timestamp TIMESTAMPTZ DEFAULT NOW()\n);\n\nCREATE TABLE blockers (\n  id SERIAL PRIMARY KEY,\n  project_id INTEGER REFERENCES projects(id),\n  blocker_text TEXT,\n  status TEXT DEFAULT 'open', -- \"open\", \"resolved\"\n  created_at TIMESTAMPTZ DEFAULT NOW(),\n  resolved_at TIMESTAMPTZ\n);\n```\n\n2. Create a Discord channel for project updates (e.g., #project-state).\n\n3. Prompt OpenClaw:\n```text\nYou are my project state manager. Instead of Kanban, I'll tell you what I'm working on conversationally.\n\nWhen I say things like:\n- \"Finished [task]\" → log a \"progress\" event, update project state\n- \"Blocked on [issue]\" → create a blocker entry, update project status to \"blocked\"\n- \"Starting [new task]\" → log a \"progress\" event, update current phase\n- \"Decided to [decision]\" → log a \"decision\" event with full context\n- \"Pivoting to [new approach]\" → log a \"pivot\" event with reasoning\n\nWhen I ask:\n- \"What's the status of [project]?\" → fetch latest events, blockers, and current phase\n- \"Why did we decide [X]?\" → search events for decision context\n- \"What's blocking us?\" → list all open blockers across projects\n\nEvery morning at 9 AM, run a cron job to:\n1. Scan git commits from the past 24 hours (via gh CLI)\n2. Link commits to projects based on branch names or commit messages\n3. Post a daily standup summary to Discord #project-state:\n   - What happened yesterday (events + commits)\n   - What's planned today (based on current phase and recent conversations)\n   - What's blocked (open blockers)\n\nWhen I'm planning a sprint, spawn a sub-agent to analyze each project's state and suggest priorities.\n```\n\n4. Integrate with your workflow: Just talk to your assistant naturally about what you're doing. The system captures everything.",
+      "zh": "1. Set up a project state database:\n```sql\nCREATE TABLE projects (\n  id SERIAL PRIMARY KEY,\n  name TEXT UNIQUE,\n  status TEXT, -- e.g., \"active\", \"blocked\", \"completed\"\n  current_phase TEXT,\n  last_update TIMESTAMPTZ DEFAULT NOW()\n);\n\nCREATE TABLE events (\n  id SERIAL PRIMARY KEY,\n  project_id INTEGER REFERENCES projects(id),\n  event_type TEXT, -- e.g., \"progress\", \"blocker\", \"decision\", \"pivot\"\n  description TEXT,\n  context TEXT,\n  timestamp TIMESTAMPTZ DEFAULT NOW()\n);\n\nCREATE TABLE blockers (\n  id SERIAL PRIMARY KEY,\n  project_id INTEGER REFERENCES projects(id),\n  blocker_text TEXT,\n  status TEXT DEFAULT 'open', -- \"open\", \"resolved\"\n  created_at TIMESTAMPTZ DEFAULT NOW(),\n  resolved_at TIMESTAMPTZ\n);\n```\n\n2. Create a Discord channel for project updates (e.g., #project-state).\n\n3. Prompt OpenClaw:\n```text\nYou are my project state manager. Instead of Kanban, I'll tell you what I'm working on conversationally.\n\nWhen I say things like:\n- \"Finished [task]\" → log a \"progress\" event, update project state\n- \"Blocked on [issue]\" → create a blocker entry, update project status to \"blocked\"\n- \"Starting [new task]\" → log a \"progress\" event, update current phase\n- \"Decided to [decision]\" → log a \"decision\" event with full context\n- \"Pivoting to [new approach]\" → log a \"pivot\" event with reasoning\n\nWhen I ask:\n- \"What's the status of [project]?\" → fetch latest events, blockers, and current phase\n- \"Why did we decide [X]?\" → search events for decision context\n- \"What's blocking us?\" → list all open blockers across projects\n\nEvery morning at 9 AM, run a cron job to:\n1. Scan git commits from the past 24 hours (via gh CLI)\n2. Link commits to projects based on branch names or commit messages\n3. Post a daily standup summary to Discord #project-state:\n   - What happened yesterday (events + commits)\n   - What's planned today (based on current phase and recent conversations)\n   - What's blocked (open blockers)\n\nWhen I'm planning a sprint, spawn a sub-agent to analyze each project's state and suggest priorities.\n```\n\n4. Integrate with your workflow: Just talk to your assistant naturally about what you're doing. The system captures everything."
     },
     "difficulty": "advanced",
     "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/project-state-management.md"
@@ -1018,42 +1049,11 @@
       "zh": []
     },
     "howto": {
-      "en": "",
-      "zh": ""
+      "en": "### 1. Configure Todoist\nCreate a project (e.g., \"OpenClaw Workspace\") and get its ID. Create sections for different states:\n- `🟡 In Progress`\n- `🟠 Waiting`\n- `🟢 Done`\n\n### 2. Implementation: The \"Agent-Built\" Skill\nInstead of installing a skill, you can ask OpenClaw to create these scripts for you. Each script handles a different part of the communication with the Todoist API.\n\n**`scripts/todoist_api.sh`** (The Core Wrapper):\n```bash\n#!/bin/bash\n# Usage: ./todoist_api.sh <endpoint> <method> [data_json]\nENDPOINT=$1\nMETHOD=$2\nDATA=$3\nTOKEN=\"YOUR_TODOIST_API_TOKEN\"\n\nif [ -z \"$DATA\" ]; then\n  curl -s -X \"$METHOD\" \"https://api.todoist.com/rest/v2/$ENDPOINT\" \\\n    -H \"Authorization: Bearer $TOKEN\"\nelse\n  curl -s -X \"$METHOD\" \"https://api.todoist.com/rest/v2/$ENDPOINT\" \\\n    -H \"Authorization: Bearer $TOKEN\" \\\n    -H \"Content-Type: application/json\" \\\n    -d \"$DATA\"\nfi\n```\n\n**`scripts/sync_task.sh`** (Task & Status Management):\n```bash\n#!/bin/bash\n# Usage: ./sync_task.sh <task_content> <status> [task_id] [description] [labels_json_array]\nCONTENT=$1\nSTATUS=$2\nTASK_ID=$3\nDESCRIPTION=$4\nLABELS=$5\nPROJECT_ID=\"YOUR_PROJECT_ID\"\n\ncase $STATUS in\n  \"In Progress\") SECTION_ID=\"SECTION_ID_PROGRESS\" ;;\n  \"Waiting\")     SECTION_ID=\"SECTION_ID_WAITING\" ;;\n  \"Done\")        SECTION_ID=\"SECTION_ID_DONE\" ;;\n  *)             SECTION_ID=\"\" ;;\nesac\n\nPAYLOAD=\"{\\\"content\\\": \\\"$CONTENT\\\"\"\n[ -n \"$SECTION_ID\" ] && PAYLOAD=\"$PAYLOAD, \\\"section_id\\\": \\\"$SECTION_ID\\\"\"\n[ -n \"$PROJECT_ID\" ] && [ -z \"$TASK_ID\" ] && PAYLOAD=\"$PAYLOAD, \\\"project_id\\\": \\\"$PROJECT_ID\\\"\"\nif [ -n \"$DESCRIPTION\" ]; then\n  ESC_DESC=$(echo \"$DESCRIPTION\" | sed ':a;N;$!ba;s/\\n/\\\\n/g' | sed 's/\"/\\\\\"/g')\n  PAYLOAD=\"$PAYLOAD, \\\"description\\\": \\\"$ESC_DESC\\\"\"\nfi\n[ -n \"$LABELS\" ] && PAYLOAD=\"$PAYLOAD, \\\"labels\\\": $LABELS\"\nPAYLOAD=\"$PAYLOAD}\"\n\nif [ -n \"$TASK_ID\" ]; then\n  ./scripts/todoist_api.sh \"tasks/$TASK_ID\" POST \"$PAYLOAD\"\nelse\n  ./scripts/todoist_api.sh \"tasks\" POST \"$PAYLOAD\"\nfi\n```\n\n**`scripts/add_comment.sh`** (Progress Logging):\n```bash\n#!/bin/bash\n# Usage: ./add_comment.sh <task_id> <comment_text>\nTASK_ID=$1\nTEXT=$2\nESC_TEXT=$(echo \"$TEXT\" | sed ':a;N;$!ba;s/\\n/\\\\n/g' | sed 's/\"/\\\\\"/g')\nPAYLOAD=\"{\\\"task_id\\\": \\\"$TASK_ID\\\", \\\"content\\\": \\\"$ESC_TEXT\\\"}\"\n./scripts/todoist_api.sh \"comments\" POST \"$PAYLOAD\"\n```\n\n### 3. Usage Prompt\nYou can give this prompt to your agent to both **setup** and **use** the visibility system:\n\n```text\nI want you to build a Todoist-based task visibility system for your own runs. \n\nFirst, create three bash scripts in a 'scripts/' folder: \n1. todoist_api.sh (a curl wrapper for Todoist REST API)\n2. sync_task.sh (to create or update tasks with specific section_ids for In Progress, Waiting, and Done)\n3. add_comment.sh (to post progress logs as comments)\n\nUse these variables for the setup:\n- Token: [Your Todoist API Token]\n- Project ID: [Your Project ID]\n- Section IDs: [In Progress ID, Waiting ID, Done ID]\n\nOnce created, for every complex task I give you:\n1. Create a task in 'In Progress' with your full PLAN in the description.\n2. For every sub-step completion, call add_comment.sh with a log of what you did.\n3. Move the task to 'Done' when finished.\n```",
+      "zh": "### 1. Configure Todoist\nCreate a project (e.g., \"OpenClaw Workspace\") and get its ID. Create sections for different states:\n- `🟡 In Progress`\n- `🟠 Waiting`\n- `🟢 Done`\n\n### 2. Implementation: The \"Agent-Built\" Skill\nInstead of installing a skill, you can ask OpenClaw to create these scripts for you. Each script handles a different part of the communication with the Todoist API.\n\n**`scripts/todoist_api.sh`** (The Core Wrapper):\n```bash\n#!/bin/bash\n# Usage: ./todoist_api.sh <endpoint> <method> [data_json]\nENDPOINT=$1\nMETHOD=$2\nDATA=$3\nTOKEN=\"YOUR_TODOIST_API_TOKEN\"\n\nif [ -z \"$DATA\" ]; then\n  curl -s -X \"$METHOD\" \"https://api.todoist.com/rest/v2/$ENDPOINT\" \\\n    -H \"Authorization: Bearer $TOKEN\"\nelse\n  curl -s -X \"$METHOD\" \"https://api.todoist.com/rest/v2/$ENDPOINT\" \\\n    -H \"Authorization: Bearer $TOKEN\" \\\n    -H \"Content-Type: application/json\" \\\n    -d \"$DATA\"\nfi\n```\n\n**`scripts/sync_task.sh`** (Task & Status Management):\n```bash\n#!/bin/bash\n# Usage: ./sync_task.sh <task_content> <status> [task_id] [description] [labels_json_array]\nCONTENT=$1\nSTATUS=$2\nTASK_ID=$3\nDESCRIPTION=$4\nLABELS=$5\nPROJECT_ID=\"YOUR_PROJECT_ID\"\n\ncase $STATUS in\n  \"In Progress\") SECTION_ID=\"SECTION_ID_PROGRESS\" ;;\n  \"Waiting\")     SECTION_ID=\"SECTION_ID_WAITING\" ;;\n  \"Done\")        SECTION_ID=\"SECTION_ID_DONE\" ;;\n  *)             SECTION_ID=\"\" ;;\nesac\n\nPAYLOAD=\"{\\\"content\\\": \\\"$CONTENT\\\"\"\n[ -n \"$SECTION_ID\" ] && PAYLOAD=\"$PAYLOAD, \\\"section_id\\\": \\\"$SECTION_ID\\\"\"\n[ -n \"$PROJECT_ID\" ] && [ -z \"$TASK_ID\" ] && PAYLOAD=\"$PAYLOAD, \\\"project_id\\\": \\\"$PROJECT_ID\\\"\"\nif [ -n \"$DESCRIPTION\" ]; then\n  ESC_DESC=$(echo \"$DESCRIPTION\" | sed ':a;N;$!ba;s/\\n/\\\\n/g' | sed 's/\"/\\\\\"/g')\n  PAYLOAD=\"$PAYLOAD, \\\"description\\\": \\\"$ESC_DESC\\\"\"\nfi\n[ -n \"$LABELS\" ] && PAYLOAD=\"$PAYLOAD, \\\"labels\\\": $LABELS\"\nPAYLOAD=\"$PAYLOAD}\"\n\nif [ -n \"$TASK_ID\" ]; then\n  ./scripts/todoist_api.sh \"tasks/$TASK_ID\" POST \"$PAYLOAD\"\nelse\n  ./scripts/todoist_api.sh \"tasks\" POST \"$PAYLOAD\"\nfi\n```\n\n**`scripts/add_comment.sh`** (Progress Logging):\n```bash\n#!/bin/bash\n# Usage: ./add_comment.sh <task_id> <comment_text>\nTASK_ID=$1\nTEXT=$2\nESC_TEXT=$(echo \"$TEXT\" | sed ':a;N;$!ba;s/\\n/\\\\n/g' | sed 's/\"/\\\\\"/g')\nPAYLOAD=\"{\\\"task_id\\\": \\\"$TASK_ID\\\", \\\"content\\\": \\\"$ESC_TEXT\\\"}\"\n./scripts/todoist_api.sh \"comments\" POST \"$PAYLOAD\"\n```\n\n### 3. Usage Prompt\nYou can give this prompt to your agent to both **setup** and **use** the visibility system:\n\n```text\nI want you to build a Todoist-based task visibility system for your own runs. \n\nFirst, create three bash scripts in a 'scripts/' folder: \n1. todoist_api.sh (a curl wrapper for Todoist REST API)\n2. sync_task.sh (to create or update tasks with specific section_ids for In Progress, Waiting, and Done)\n3. add_comment.sh (to post progress logs as comments)\n\nUse these variables for the setup:\n- Token: [Your Todoist API Token]\n- Project ID: [Your Project ID]\n- Section IDs: [In Progress ID, Waiting ID, Done ID]\n\nOnce created, for every complex task I give you:\n1. Create a task in 'In Progress' with your full PLAN in the description.\n2. For every sub-step completion, call add_comment.sh with a log of what you did.\n3. Move the task to 'Done' when finished.\n```"
     },
     "difficulty": "beginner",
     "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/todoist-task-manager.md"
-  },
-  {
-    "id": "x-account-analysis",
-    "category": "productivity",
-    "icon": "📋",
-    "gradient": [
-      "#34c759",
-      "#30d158"
-    ],
-    "name": {
-      "en": "X Account Analysis",
-      "zh": "X Account Analysis"
-    },
-    "summary": {
-      "en": "There are many websites designed to give you a qualitative analysis of your X account. While X already gives you an anal",
-      "zh": "There are many websites designed to give you a qualitative analysis of your X account. While X already gives you an anal"
-    },
-    "description": {
-      "en": "There are many websites designed to give you a qualitative analysis of your X account. While X already gives you an analytics section, it's more focused to show your numbers on your performance. But a",
-      "zh": "There are many websites designed to give you a qualitative analysis of your X account. While X already gives you an analytics section, it's more focused to show your numbers on your performance. But a"
-    },
-    "skills": {
-      "en": [],
-      "zh": []
-    },
-    "howto": {
-      "en": "",
-      "zh": ""
-    },
-    "difficulty": "beginner",
-    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/x-account-analysis.md"
   },
   {
     "id": "arxiv-paper-reader",
@@ -1080,8 +1080,8 @@
       "zh": []
     },
     "howto": {
-      "en": "",
-      "zh": ""
+      "en": "1. Install the `arxiv-reader` skill from the [Prismer repository](https://github.com/Prismer-AI/Prismer/tree/main/skills/arxiv-reader) — copy the `skills/arxiv-reader/` directory into your OpenClaw skills folder.\n\n2. The skill is ready to use. Prompt OpenClaw:\n```text\nI'm researching [topic]. Here's my workflow:\n\n1. When I give you an arXiv ID (like 2301.00001):\n   - First fetch the abstract so I can decide if it's relevant\n   - If I say \"read it\", fetch the full paper (remove appendix by default)\n   - Summarize the key contributions, methodology, and results\n\n2. When I give you multiple IDs:\n   - Fetch all abstracts and give me a comparison table\n   - Rank them by relevance to my research topic\n\n3. When I ask about a specific section:\n   - List the paper's sections first\n   - Then fetch and explain the relevant section in detail\n\nKeep a running list of papers I've read and their key takeaways.\n```\n\n3. Try it: \"Read 2401.04088 — what's the main contribution?\"",
+      "zh": "1. Install the `arxiv-reader` skill from the [Prismer repository](https://github.com/Prismer-AI/Prismer/tree/main/skills/arxiv-reader) — copy the `skills/arxiv-reader/` directory into your OpenClaw skills folder.\n\n2. The skill is ready to use. Prompt OpenClaw:\n```text\nI'm researching [topic]. Here's my workflow:\n\n1. When I give you an arXiv ID (like 2301.00001):\n   - First fetch the abstract so I can decide if it's relevant\n   - If I say \"read it\", fetch the full paper (remove appendix by default)\n   - Summarize the key contributions, methodology, and results\n\n2. When I give you multiple IDs:\n   - Fetch all abstracts and give me a comparison table\n   - Rank them by relevance to my research topic\n\n3. When I ask about a specific section:\n   - List the paper's sections first\n   - Then fetch and explain the relevant section in detail\n\nKeep a running list of papers I've read and their key takeaways.\n```\n\n3. Try it: \"Read 2401.04088 — what's the main contribution?\""
     },
     "difficulty": "beginner",
     "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/arxiv-paper-reader.md"
@@ -1111,8 +1111,8 @@
       "zh": []
     },
     "howto": {
-      "en": "",
-      "zh": ""
+      "en": "1. Install the knowledge-base skill from ClawdHub.\n2. Create a Telegram topic called \"knowledge-base\" (or use a Slack channel).\n3. Prompt OpenClaw:\n```text\nWhen I drop a URL in the \"knowledge-base\" topic:\n1. Fetch the content (article, tweet, YouTube transcript, PDF)\n2. Ingest it into the knowledge base with metadata (title, URL, date, type)\n3. Reply with confirmation: what was ingested and chunk count\n\nWhen I ask a question in this topic:\n1. Search the knowledge base semantically\n2. Return top results with sources and relevant excerpts\n3. If no good matches, tell me\n\nAlso: when other workflows need research (e.g., video ideas, meeting prep), automatically query the knowledge base for relevant saved content.\n```\n\n4. Test it by dropping a few URLs and asking questions like \"What do I have about LLM memory?\"",
+      "zh": "1. Install the knowledge-base skill from ClawdHub.\n2. Create a Telegram topic called \"knowledge-base\" (or use a Slack channel).\n3. Prompt OpenClaw:\n```text\nWhen I drop a URL in the \"knowledge-base\" topic:\n1. Fetch the content (article, tweet, YouTube transcript, PDF)\n2. Ingest it into the knowledge base with metadata (title, URL, date, type)\n3. Reply with confirmation: what was ingested and chunk count\n\nWhen I ask a question in this topic:\n1. Search the knowledge base semantically\n2. Return top results with sources and relevant excerpts\n3. If no good matches, tell me\n\nAlso: when other workflows need research (e.g., video ideas, meeting prep), automatically query the knowledge base for relevant saved content.\n```\n\n4. Test it by dropping a few URLs and asking questions like \"What do I have about LLM memory?\""
     },
     "difficulty": "beginner",
     "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/knowledge-base-rag.md"
@@ -1142,8 +1142,8 @@
       "zh": []
     },
     "howto": {
-      "en": "",
-      "zh": ""
+      "en": "1. Clone and deploy [Prismer](https://github.com/Prismer-AI/Prismer) with Docker (the LaTeX server with full TeX Live starts automatically):\n```bash\ngit clone https://github.com/Prismer-AI/Prismer.git && cd Prismer\ndocker compose -f docker/docker-compose.dev.yml up\n```\n\n2. The `latex-compiler` skill is built-in — no installation needed. Prompt OpenClaw:\n```text\nHelp me write a research paper in LaTeX. Here's my workflow:\n\n1. Start from the IEEE template (or article/beamer depending on what I need)\n2. When I describe a section, generate the LaTeX source for it\n3. After each major edit, compile and preview the PDF so I can check formatting\n4. If there are compilation errors, read the log and fix them automatically\n5. When I provide BibTeX entries, add them to the bibliography and recompile\n\nUse xelatex if I need Chinese/CJK support, otherwise default to pdflatex.\nAlways run 2 passes for cross-references.\n```\n\n3. Try it: \"Start a new IEEE paper titled 'A Survey of LLM Agents'. Give me the template with abstract and introduction sections filled in, then compile it.\"",
+      "zh": "1. Clone and deploy [Prismer](https://github.com/Prismer-AI/Prismer) with Docker (the LaTeX server with full TeX Live starts automatically):\n```bash\ngit clone https://github.com/Prismer-AI/Prismer.git && cd Prismer\ndocker compose -f docker/docker-compose.dev.yml up\n```\n\n2. The `latex-compiler` skill is built-in — no installation needed. Prompt OpenClaw:\n```text\nHelp me write a research paper in LaTeX. Here's my workflow:\n\n1. Start from the IEEE template (or article/beamer depending on what I need)\n2. When I describe a section, generate the LaTeX source for it\n3. After each major edit, compile and preview the PDF so I can check formatting\n4. If there are compilation errors, read the log and fix them automatically\n5. When I provide BibTeX entries, add them to the bibliography and recompile\n\nUse xelatex if I need Chinese/CJK support, otherwise default to pdflatex.\nAlways run 2 passes for cross-references.\n```\n\n3. Try it: \"Start a new IEEE paper titled 'A Survey of LLM Agents'. Give me the template with abstract and introduction sections filled in, then compile it.\""
     },
     "difficulty": "beginner",
     "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/latex-paper-writing.md"
@@ -1173,8 +1173,8 @@
       "zh": []
     },
     "howto": {
-      "en": "",
-      "zh": ""
+      "en": "1. Install the Last 30 Days skill:\n```text\nInstall this skill: https://github.com/mvanhorn/last30days-skill/\n```\n\n2. Run research on any topic:\n```text\nPlease use the Last 30 Days skill to research challenges people are\nhaving with [your topic here].\n\nOrganize the findings into:\n- Top pain points (ranked by frequency)\n- Specific complaints and feature requests\n- Gaps in existing solutions\n- Opportunities for a new product\n```\n\n3. Pick a pain point and have OpenClaw build a solution:\n```text\nBuild me an MVP that solves [pain point from research].\nKeep it simple — just the core functionality.\nShip it as a web app I can share with people.\n```\n\n4. For ongoing market intelligence, schedule regular research:\n```text\nEvery Monday morning, use the Last 30 Days skill to research what\npeople are saying about [your niche] on Reddit and X. Summarize the\ntop opportunities and send them to my Telegram.\n```",
+      "zh": "1. Install the Last 30 Days skill:\n```text\nInstall this skill: https://github.com/mvanhorn/last30days-skill/\n```\n\n2. Run research on any topic:\n```text\nPlease use the Last 30 Days skill to research challenges people are\nhaving with [your topic here].\n\nOrganize the findings into:\n- Top pain points (ranked by frequency)\n- Specific complaints and feature requests\n- Gaps in existing solutions\n- Opportunities for a new product\n```\n\n3. Pick a pain point and have OpenClaw build a solution:\n```text\nBuild me an MVP that solves [pain point from research].\nKeep it simple — just the core functionality.\nShip it as a web app I can share with people.\n```\n\n4. For ongoing market intelligence, schedule regular research:\n```text\nEvery Monday morning, use the Last 30 Days skill to research what\npeople are saying about [your niche] on Reddit and X. Summarize the\ntop opportunities and send them to my Telegram.\n```"
     },
     "difficulty": "beginner",
     "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/market-research-product-factory.md"
@@ -1204,8 +1204,8 @@
       "zh": []
     },
     "howto": {
-      "en": "",
-      "zh": ""
+      "en": "1. Make sure your OpenClaw is connected to your preferred messaging platform (Telegram, Discord, etc.).\n\n2. Start using it immediately — just text your bot anything you want to remember:\n```text\nHey, remind me to read \"Designing Data-Intensive Applications\"\nSave this link: https://example.com/interesting-article\nRemember: John recommended the restaurant on 5th street\n```\n\n3. Build the searchable UI by prompting OpenClaw:\n```text\nI want to build a second brain system where I can review all our notes,\nconversations, and memories. Please build that out with Next.js.\n\nInclude:\n- A searchable list of all memories and conversations\n- Global search (Cmd+K) across everything\n- Ability to filter by date and type\n- Clean, minimal UI\n```\n\n4. OpenClaw will build and deploy the entire Next.js app for you. Navigate to the URL it provides and you have your second brain dashboard.\n\n5. From now on, whenever you think of something — on the road, in a meeting, before bed — just text your bot. Come back to the dashboard whenever you need to find something.",
+      "zh": "1. Make sure your OpenClaw is connected to your preferred messaging platform (Telegram, Discord, etc.).\n\n2. Start using it immediately — just text your bot anything you want to remember:\n```text\nHey, remind me to read \"Designing Data-Intensive Applications\"\nSave this link: https://example.com/interesting-article\nRemember: John recommended the restaurant on 5th street\n```\n\n3. Build the searchable UI by prompting OpenClaw:\n```text\nI want to build a second brain system where I can review all our notes,\nconversations, and memories. Please build that out with Next.js.\n\nInclude:\n- A searchable list of all memories and conversations\n- Global search (Cmd+K) across everything\n- Ability to filter by date and type\n- Clean, minimal UI\n```\n\n4. OpenClaw will build and deploy the entire Next.js app for you. Navigate to the URL it provides and you have your second brain dashboard.\n\n5. From now on, whenever you think of something — on the road, in a meeting, before bed — just text your bot. Come back to the dashboard whenever you need to find something."
     },
     "difficulty": "beginner",
     "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/second-brain.md"
@@ -1235,8 +1235,8 @@
       "zh": []
     },
     "howto": {
-      "en": "",
-      "zh": ""
+      "en": "1. Install memsearch:\n```bash\npip install memsearch\n```\n\n2. Run the interactive config wizard:\n```bash\nmemsearch config init\n```\n\n3. Index your OpenClaw memory directory:\n```bash\nmemsearch index ~/path/to/your/memory/\n```\n\n4. Search your memories by meaning:\n```bash\nmemsearch search \"what caching solution did we pick?\"\n```\n\n5. For live sync, start the file watcher — it auto-indexes on every file change:\n```bash\nmemsearch watch ~/path/to/your/memory/\n```\n\n6. For a fully local setup (no API keys), install the local embedding provider:\n```bash\npip install \"memsearch[local]\"\nmemsearch config set embedding.provider local\nmemsearch index ~/path/to/your/memory/\n```",
+      "zh": "1. Install memsearch:\n```bash\npip install memsearch\n```\n\n2. Run the interactive config wizard:\n```bash\nmemsearch config init\n```\n\n3. Index your OpenClaw memory directory:\n```bash\nmemsearch index ~/path/to/your/memory/\n```\n\n4. Search your memories by meaning:\n```bash\nmemsearch search \"what caching solution did we pick?\"\n```\n\n5. For live sync, start the file watcher — it auto-indexes on every file change:\n```bash\nmemsearch watch ~/path/to/your/memory/\n```\n\n6. For a fully local setup (no API keys), install the local embedding provider:\n```bash\npip install \"memsearch[local]\"\nmemsearch config set embedding.provider local\nmemsearch index ~/path/to/your/memory/\n```"
     },
     "difficulty": "beginner",
     "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/semantic-memory-search.md"
@@ -1266,8 +1266,8 @@
       "zh": []
     },
     "howto": {
-      "en": "",
-      "zh": ""
+      "en": "1. Create a Telegram topic called \"earnings\" for updates.\n2. Prompt OpenClaw:\n```text\nEvery Sunday at 6 PM, run a cron job to:\n1. Search for the upcoming week's earnings calendar for tech and AI companies\n2. Filter for companies I care about (NVDA, MSFT, GOOGL, META, AMZN, TSLA, AMD, etc.)\n3. Post the list to my Telegram \"earnings\" topic\n4. Wait for me to confirm which ones I want to track\n\nWhen I reply with which companies to track:\n1. Schedule one-shot cron jobs for each earnings date/time\n2. After each report drops, search for earnings results\n3. Format a summary including: beat/miss, revenue, EPS, key metrics, AI-related highlights, guidance\n4. Post to Telegram \"earnings\" topic\n\nKeep a memory of which companies I typically track so you can auto-suggest them each week.\n```",
+      "zh": "1. Create a Telegram topic called \"earnings\" for updates.\n2. Prompt OpenClaw:\n```text\nEvery Sunday at 6 PM, run a cron job to:\n1. Search for the upcoming week's earnings calendar for tech and AI companies\n2. Filter for companies I care about (NVDA, MSFT, GOOGL, META, AMZN, TSLA, AMD, etc.)\n3. Post the list to my Telegram \"earnings\" topic\n4. Wait for me to confirm which ones I want to track\n\nWhen I reply with which companies to track:\n1. Schedule one-shot cron jobs for each earnings date/time\n2. After each report drops, search for earnings results\n3. Format a summary including: beat/miss, revenue, EPS, key metrics, AI-related highlights, guidance\n4. Post to Telegram \"earnings\" topic\n\nKeep a memory of which companies I typically track so you can auto-suggest them each week.\n```"
     },
     "difficulty": "beginner",
     "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/earnings-tracker.md"
@@ -1309,8 +1309,8 @@
       ]
     },
     "howto": {
-      "en": "",
-      "zh": ""
+      "en": "1. Set up a database for paper trading:\n```sql\nCREATE TABLE paper_trades (\n  id SERIAL PRIMARY KEY,\n  market_id TEXT,\n  market_name TEXT,\n  strategy TEXT,\n  direction TEXT,\n  entry_price DECIMAL,\n  exit_price DECIMAL,\n  quantity DECIMAL,\n  pnl DECIMAL,\n  timestamp TIMESTAMPTZ DEFAULT NOW()\n);\n\nCREATE TABLE portfolio (\n  id SERIAL PRIMARY KEY,\n  total_value DECIMAL,\n  cash DECIMAL,\n  positions JSONB,\n  updated_at TIMESTAMPTZ DEFAULT NOW()\n);\n```\n\n2. Create a Discord channel for updates (e.g., #polymarket-autopilot).\n\n3. Prompt OpenClaw:\n```text\nYou are a Polymarket paper trading autopilot. Run continuously (via cron every 15 minutes):\n\n1. Fetch current market data from Polymarket API\n2. Analyze opportunities using these strategies:\n   - TAIL: Follow strong trends (>60% probability + volume spike)\n   - BONDING: Contrarian plays on overreactions (sudden drops >10% on news)\n   - SPREAD: Arbitrage when YES+NO > 1.05\n3. Execute paper trades in the database (starting capital: $10,000)\n4. Track portfolio state and update positions\n\nEvery morning at 8 AM, post a summary to Discord #polymarket-autopilot:\n- Yesterday's trades (entry/exit prices, P&L)\n- Current portfolio value and open positions\n- Win rate and strategy performance\n- Market insights and recommendations\n\nUse sub-agents to analyze multiple markets in parallel during high-volume periods.\n\nNever use real money. This is paper trading only.\n```\n\n4. Iterate on strategies based on performance. Adjust thresholds, add new strategies, backtest historical data.",
+      "zh": "1. Set up a database for paper trading:\n```sql\nCREATE TABLE paper_trades (\n  id SERIAL PRIMARY KEY,\n  market_id TEXT,\n  market_name TEXT,\n  strategy TEXT,\n  direction TEXT,\n  entry_price DECIMAL,\n  exit_price DECIMAL,\n  quantity DECIMAL,\n  pnl DECIMAL,\n  timestamp TIMESTAMPTZ DEFAULT NOW()\n);\n\nCREATE TABLE portfolio (\n  id SERIAL PRIMARY KEY,\n  total_value DECIMAL,\n  cash DECIMAL,\n  positions JSONB,\n  updated_at TIMESTAMPTZ DEFAULT NOW()\n);\n```\n\n2. Create a Discord channel for updates (e.g., #polymarket-autopilot).\n\n3. Prompt OpenClaw:\n```text\nYou are a Polymarket paper trading autopilot. Run continuously (via cron every 15 minutes):\n\n1. Fetch current market data from Polymarket API\n2. Analyze opportunities using these strategies:\n   - TAIL: Follow strong trends (>60% probability + volume spike)\n   - BONDING: Contrarian plays on overreactions (sudden drops >10% on news)\n   - SPREAD: Arbitrage when YES+NO > 1.05\n3. Execute paper trades in the database (starting capital: $10,000)\n4. Track portfolio state and update positions\n\nEvery morning at 8 AM, post a summary to Discord #polymarket-autopilot:\n- Yesterday's trades (entry/exit prices, P&L)\n- Current portfolio value and open positions\n- Win rate and strategy performance\n- Market insights and recommendations\n\nUse sub-agents to analyze multiple markets in parallel during high-volume periods.\n\nNever use real money. This is paper trading only.\n```\n\n4. Iterate on strategies based on performance. Adjust thresholds, add new strategies, backtest historical data."
     },
     "difficulty": "advanced",
     "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/polymarket-autopilot.md"

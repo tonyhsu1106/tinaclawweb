@@ -166,6 +166,7 @@ function showError() {
          data-zh="返回首页" data-en="Back to Home">返回首页</a>
     </div>
   `;
+  setLang(getCurrentLang());
 }
 
 document.addEventListener('DOMContentLoaded', init);
