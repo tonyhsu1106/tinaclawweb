@@ -9,11 +9,11 @@
     ],
     "name": {
       "en": "Multi-Agent Content Factory",
-      "zh": "Multi-Agent Content Factory"
+      "zh": "多代理内容工厂"
     },
     "summary": {
       "en": "You're a content creator juggling research, writing, and design across multiple platforms. Each step — finding trending",
-      "zh": "You're a content creator juggling research, writing, and design across multiple platforms. Each step — finding trending"
+      "zh": "让多个专业代理分工协作，自动完成跨平台内容的调研、撰写与设计，彻底告别手动多任务切换"
     },
     "description": {
       "en": "You're a content creator juggling research, writing, and design across multiple platforms. Each step — finding trending topics, writing scripts, generating thumbnails — eats hours of your day. What if",
@@ -40,11 +40,11 @@
     ],
     "name": {
       "en": "Daily Reddit Digest",
-      "zh": "Daily Reddit Digest"
+      "zh": "每日 Reddit 精华摘要"
     },
     "summary": {
       "en": "Run a daily digest everyday to give you the top performing posts from your favourite subreddits. What to use it for: • B",
-      "zh": "Run a daily digest everyday to give you the top performing posts from your favourite subreddits. What to use it for: • B"
+      "zh": "每天自动抓取你最爱版块的热门帖子，生成精华摘要推送给你，不错过任何值得关注的讨论"
     },
     "description": {
       "en": "Run a daily digest everyday to give you the top performing posts from your favourite subreddits. What to use it for: • Browsing subreddits (hot/new/top posts) • Searching posts by topic • Pulling comm",
@@ -71,11 +71,11 @@
     ],
     "name": {
       "en": "Daily YouTube Digest",
-      "zh": "Daily YouTube Digest"
+      "zh": "每日 YouTube 视频摘要"
     },
     "summary": {
       "en": "Start your day with a personalized summary of new videos from your favorite YouTube channels — no more missing content f",
-      "zh": "Start your day with a personalized summary of new videos from your favorite YouTube channels — no more missing content f"
+      "zh": "用个性化摘要开启每一天，自动汇总关注频道的新视频，再也不会错过喜欢的内容"
     },
     "description": {
       "en": "Start your day with a personalized summary of new videos from your favorite YouTube channels — no more missing content from creators you actually want to follow. YouTube notifications are unreliable. ",
@@ -102,11 +102,11 @@
     ],
     "name": {
       "en": "Multi-Channel Personal Assistant",
-      "zh": "Multi-Channel Personal Assistant"
+      "zh": "多渠道个人助理"
     },
     "summary": {
       "en": "Context-switching between apps to manage tasks, schedule events, send messages, and track work is exhausting. You want o",
-      "zh": "Context-switching between apps to manage tasks, schedule events, send messages, and track work is exhausting. You want o"
+      "zh": "一个统一入口管理任务、日程、消息和工作追踪，告别在不同应用间来回切换的疲惫"
     },
     "description": {
       "en": "Context-switching between apps to manage tasks, schedule events, send messages, and track work is exhausting. You want one interface that routes to all your tools. This workflow consolidates everythin",
@@ -133,11 +133,11 @@
     ],
     "name": {
       "en": "Multi-Channel AI Customer Service Platform",
-      "zh": "Multi-Channel AI Customer Service Platform"
+      "zh": "多渠道 AI 客服平台"
     },
     "summary": {
       "en": "Small businesses juggle WhatsApp, Instagram DMs, emails, and Google Reviews across multiple apps. Customers expect insta",
-      "zh": "Small businesses juggle WhatsApp, Instagram DMs, emails, and Google Reviews across multiple apps. Customers expect insta"
+      "zh": "统一处理 WhatsApp、Instagram、邮件和 Google 评论，让小团队也能提供即时的专业客服响应"
     },
     "description": {
       "en": "Small businesses juggle WhatsApp, Instagram DMs, emails, and Google Reviews across multiple apps. Customers expect instant responses 24/7, but hiring staff for round-the-clock coverage is expensive. T",
@@ -164,11 +164,11 @@
     ],
     "name": {
       "en": "Multi-Source Tech News Digest",
-      "zh": "Multi-Source Tech News Digest"
+      "zh": "多源科技新闻聚合"
     },
     "summary": {
       "en": "Automatically aggregate, score, and deliver tech news from 109+ sources across RSS, Twitter/X, GitHub releases, and web",
-      "zh": "Automatically aggregate, score, and deliver tech news from 109+ sources across RSS, Twitter/X, GitHub releases, and web"
+      "zh": "自动聚合 100+ RSS、X/Twitter、GitHub 发布和网页的科技资讯，评分筛选后精准推送给你"
     },
     "description": {
       "en": "Automatically aggregate, score, and deliver tech news from 109+ sources across RSS, Twitter/X, GitHub releases, and web search — all managed through natural language. Staying updated across AI, open-s",
@@ -201,11 +201,11 @@
     ],
     "name": {
       "en": "Podcast Production Pipeline",
-      "zh": "Podcast Production Pipeline"
+      "zh": "播客制作流水线"
     },
     "summary": {
       "en": "You have a podcast idea, maybe even a backlog of episode topics. But between researching guests, writing outlines, draft",
-      "zh": "You have a podcast idea, maybe even a backlog of episode topics. But between researching guests, writing outlines, draft"
+      "zh": "从选题构思到嘉宾调研、提纲撰写、脚本起草，AI 全程协助你的播客制作，大幅降低单集制作成本"
     },
     "description": {
       "en": "You have a podcast idea, maybe even a backlog of episode topics. But between researching guests, writing outlines, drafting intros, generating show notes, and writing social media posts for promotion ",
@@ -232,11 +232,11 @@
     ],
     "name": {
       "en": "X Account Analysis",
-      "zh": "X Account Analysis"
+      "zh": "X 账号深度分析"
     },
     "summary": {
       "en": "There are many websites designed to give you a qualitative analysis of your X account. While X already gives you an anal",
-      "zh": "There are many websites designed to give you a qualitative analysis of your X account. While X already gives you an anal"
+      "zh": "超越平台自带数据，深度分析你的 X 账号表现、粉丝画像与内容策略，提供可落地的优化建议"
     },
     "description": {
       "en": "There are many websites designed to give you a qualitative analysis of your X account. While X already gives you an analytics section, it's more focused to show your numbers on your performance. But a",
@@ -263,11 +263,11 @@
     ],
     "name": {
       "en": "X/Twitter Automation from Chat",
-      "zh": "X/Twitter Automation from Chat"
+      "zh": "对话式 X/Twitter 自动化"
     },
     "summary": {
       "en": "Full X/Twitter automation through natural language — post tweets, reply, like, retweet, follow, DM, search, extract data",
-      "zh": "Full X/Twitter automation through natural language — post tweets, reply, like, retweet, follow, DM, search, extract data"
+      "zh": "用自然语言驱动完整的 X/Twitter 操作——发推、回复、点赞、转发、关注、私信、搜索，一句话搞定"
     },
     "description": {
       "en": "Full X/Twitter automation through natural language — post tweets, reply, like, retweet, follow, DM, search, extract data, run giveaways, and monitor accounts, all from your OpenClaw chat. Managing an ",
@@ -298,11 +298,11 @@
     ],
     "name": {
       "en": "YouTube Content Pipeline",
-      "zh": "YouTube Content Pipeline"
+      "zh": "YouTube 内容创作流水线"
     },
     "summary": {
       "en": "As a daily YouTube creator, finding fresh, timely video ideas across the web and X/Twitter is time-consuming. Tracking w",
-      "zh": "As a daily YouTube creator, finding fresh, timely video ideas across the web and X/Twitter is time-consuming. Tracking w"
+      "zh": "自动追踪全网和 X/Twitter 的热门话题，为日更 YouTuber 源源不断地生成选题灵感与内容方向"
     },
     "description": {
       "en": "As a daily YouTube creator, finding fresh, timely video ideas across the web and X/Twitter is time-consuming. Tracking what you've already covered prevents duplicates and helps you stay ahead of trend",
@@ -329,11 +329,11 @@
     ],
     "name": {
       "en": "Autonomous Educational Game Development Pipeline",
-      "zh": "Autonomous Educational Game Development Pipeline"
+      "zh": "自主教育游戏开发流水线"
     },
     "summary": {
       "en": "The Origin Story: A \"LANero of the old school\" dad wanted to create a safe, ad-free, and high-quality gaming portal for",
-      "zh": "The Origin Story: A \"LANero of the old school\" dad wanted to create a safe, ad-free, and high-quality gaming portal for"
+      "zh": "让 AI 自主规划、开发并迭代教育类游戏，为孩子打造无广告、高质量的安全游戏体验"
     },
     "description": {
       "en": "The Origin Story: A \"LANero of the old school\" dad wanted to create a safe, ad-free, and high-quality gaming portal for his daughters, Susana (3) and Julieta (coming soon). Existing sites were plagued",
@@ -364,11 +364,11 @@
     ],
     "name": {
       "en": "Goal-Driven Autonomous Tasks",
-      "zh": "Goal-Driven Autonomous Tasks"
+      "zh": "目标驱动的自主任务执行"
     },
     "summary": {
       "en": "Your AI agent is powerful but reactive — it only works when you tell it what to do. What if it knew your goals and proac",
-      "zh": "Your AI agent is powerful but reactive — it only works when you tell it what to do. What if it knew your goals and proac"
+      "zh": "让 AI 代理主动感知你的目标，在无人值守时自动规划并执行任务，而不只是等待你的指令"
     },
     "description": {
       "en": "Your AI agent is powerful but reactive — it only works when you tell it what to do. What if it knew your goals and proactively came up with tasks to move you closer to them every single day, without b",
@@ -395,11 +395,11 @@
     ],
     "name": {
       "en": "Pre-Build Idea Validator",
-      "zh": "Pre-Build Idea Validator"
+      "zh": "开发前创意验证器"
     },
     "summary": {
       "en": "Before OpenClaw starts building anything new, it automatically checks whether the idea already exists across GitHub, Hac",
-      "zh": "Before OpenClaw starts building anything new, it automatically checks whether the idea already exists across GitHub, Hac"
+      "zh": "在动手开发前，自动检索 GitHub、HackerNews 等平台，验证你的想法是否已有实现，避免重复造轮子"
     },
     "description": {
       "en": "Before OpenClaw starts building anything new, it automatically checks whether the idea already exists across GitHub, Hacker News, npm, PyPI, and Product Hunt — and adjusts its approach based on what i",
@@ -426,11 +426,11 @@
     ],
     "name": {
       "en": "Self-Healing Home Server & Infrastructure Management",
-      "zh": "Self-Healing Home Server & Infrastructure Management"
+      "zh": "自愈家庭服务器与基础设施管理"
     },
     "summary": {
       "en": "Running a home server means being on-call 24/7 for your own infrastructure. Services go down at 3 AM, certificates expir",
-      "zh": "Running a home server means being on-call 24/7 for your own infrastructure. Services go down at 3 AM, certificates expir"
+      "zh": "告别凌晨三点被服务告警惊醒，让 AI 自动监控、诊断并修复你的家庭服务器故障，包括证书续期"
     },
     "description": {
       "en": "Running a home server means being on-call 24/7 for your own infrastructure. Services go down at 3 AM, certificates expire silently, disk fills up, and pods crash-loop — all while you're asleep or away",
@@ -457,11 +457,11 @@
     ],
     "name": {
       "en": "OpenClaw as Desktop Cowork (AionUi) — Remote Rescue & Multi-Agent Hub",
-      "zh": "OpenClaw as Desktop Cowork (AionUi) — Remote Rescue & Multi-Agent Hub"
+      "zh": "OpenClaw 桌面协作工作站（AionUi）"
     },
     "summary": {
       "en": "Use OpenClaw from a desktop Cowork UI, access it from Telegram or WebUI when you’re away, and fix it remotely when it wo",
-      "zh": "Use OpenClaw from a desktop Cowork UI, access it from Telegram or WebUI when you’re away, and fix it remotely when it wo"
+      "zh": "通过桌面 UI 使用 OpenClaw，支持 Telegram 或 WebUI 远程访问，随时随地修复和管理你的代理"
     },
     "description": {
       "en": "Use OpenClaw from a desktop Cowork UI, access it from Telegram or WebUI when you’re away, and fix it remotely when it won’t connect. AionUi is a free, open-source app that runs OpenClaw as a first-cla",
@@ -488,11 +488,11 @@
     ],
     "name": {
       "en": "Autonomous Project Management with Subagents",
-      "zh": "Autonomous Project Management with Subagents"
+      "zh": "多代理自主项目管理"
     },
     "summary": {
       "en": "Managing complex projects with multiple parallel workstreams is exhausting. You end up context-switching constantly, tra",
-      "zh": "Managing complex projects with multiple parallel workstreams is exhausting. You end up context-switching constantly, tra"
+      "zh": "用子代理并行管理多个复杂工作流，告别无休止的上下文切换，让 AI 替你追踪全局进度"
     },
     "description": {
       "en": "Managing complex projects with multiple parallel workstreams is exhausting. You end up context-switching constantly, tracking status across tools, and manually coordinating handoffs. This use case imp",
@@ -519,11 +519,11 @@
     ],
     "name": {
       "en": "Custom Morning Brief",
-      "zh": "Custom Morning Brief"
+      "zh": "个性化晨报助手"
     },
     "summary": {
       "en": "You wake up and spend the first 30 minutes of your day catching up — scrolling news, checking your calendar, reviewing y",
-      "zh": "You wake up and spend the first 30 minutes of your day catching up — scrolling news, checking your calendar, reviewing y"
+      "zh": "每天早晨自动汇总新闻、日历、邮件和待办事项，用一份精准的个人晨报替代你的碎片化刷屏习惯"
     },
     "description": {
       "en": "You wake up and spend the first 30 minutes of your day catching up — scrolling news, checking your calendar, reviewing your to-do list, trying to figure out what matters today. What if all of that was",
@@ -550,11 +550,11 @@
     ],
     "name": {
       "en": "Dynamic Dashboard with Sub-agent Spawning",
-      "zh": "Dynamic Dashboard with Sub-agent Spawning"
+      "zh": "动态仪表盘与子代理调度"
     },
     "summary": {
       "en": "Static dashboards show stale data and require constant manual updates. You want real-time visibility across multiple dat",
-      "zh": "Static dashboards show stale data and require constant manual updates. You want real-time visibility across multiple dat"
+      "zh": "告别静态仪表盘，让子代理实时抓取多数据源，自动生成动态可视化报告，随时掌握全局状态"
     },
     "description": {
       "en": "Static dashboards show stale data and require constant manual updates. You want real-time visibility across multiple data sources without building a custom frontend or hitting API rate limits. This wo",
@@ -597,11 +597,11 @@
     ],
     "name": {
       "en": "Event Guest Confirmation",
-      "zh": "Event Guest Confirmation"
+      "zh": "活动嘉宾到场确认"
     },
     "summary": {
       "en": "You're hosting an event — a dinner party, a wedding, a company offsite — and you need to confirm attendance from a list",
-      "zh": "You're hosting an event — a dinner party, a wedding, a company offsite — and you need to confirm attendance from a list"
+      "zh": "自动向所有受邀者发送确认消息并收集回执，让晚宴、婚礼、公司团建的出席管理变得轻松"
     },
     "description": {
       "en": "You're hosting an event — a dinner party, a wedding, a company offsite — and you need to confirm attendance from a list of guests. Manually calling 20+ people is tedious: you play phone tag, forget wh",
@@ -628,11 +628,11 @@
     ],
     "name": {
       "en": "Family Calendar Aggregation & Household Assistant",
-      "zh": "Family Calendar Aggregation & Household Assistant"
+      "zh": "家庭日历聚合与家务助手"
     },
     "summary": {
       "en": "Modern families juggle five or more calendars — work, personal, shared family, kids' school, extracurriculars — across d",
-      "zh": "Modern families juggle five or more calendars — work, personal, shared family, kids' school, extracurriculars — across d"
+      "zh": "将工作、家庭、学校等五个以上日历统一管理，让 AI 协调全家人的行程安排，告别日程冲突"
     },
     "description": {
       "en": "Modern families juggle five or more calendars — work, personal, shared family, kids' school, extracurriculars — across different platforms and formats. Important events slip through the cracks because",
@@ -659,11 +659,11 @@
     ],
     "name": {
       "en": "Habit Tracker & Accountability Coach",
-      "zh": "Habit Tracker & Accountability Coach"
+      "zh": "习惯追踪与自律教练"
     },
     "summary": {
       "en": "You've tried every habit tracker app out there. They all work for a week, then you stop opening them. The problem isn't",
-      "zh": "You've tried every habit tracker app out there. They all work for a week, then you stop opening them. The problem isn't"
+      "zh": "告别「用一周就放弃」的习惯 App，让 AI 教练持续追踪你的行为数据并提供个性化督促与反馈"
     },
     "description": {
       "en": "You've tried every habit tracker app out there. They all work for a week, then you stop opening them. The problem isn't the app — it's that tracking habits is passive. What if your agent actively reac",
@@ -690,11 +690,11 @@
     ],
     "name": {
       "en": "Health & Symptom Tracker",
-      "zh": "Health & Symptom Tracker"
+      "zh": "健康与症状追踪"
     },
     "summary": {
       "en": "Identifying food sensitivities requires consistent logging over time, which is tedious to maintain. You need reminders t",
-      "zh": "Identifying food sensitivities requires consistent logging over time, which is tedious to maintain. You need reminders t"
+      "zh": "定时记录饮食与身体反应，帮助你发现食物敏感规律，用持续日志替代费力的手动记录"
     },
     "description": {
       "en": "Identifying food sensitivities requires consistent logging over time, which is tedious to maintain. You need reminders to log and analysis to spot patterns. This workflow tracks food and symptoms auto",
@@ -721,11 +721,11 @@
     ],
     "name": {
       "en": "Inbox De-clutter",
-      "zh": "Inbox De-clutter"
+      "zh": "邮箱清理整理器"
     },
     "summary": {
       "en": "Newsletters can take up the inbox like nothing else. Often times they pile-up without being opened at all. Gmail OAuth S",
-      "zh": "Newsletters can take up the inbox like nothing else. Often times they pile-up without being opened at all. Gmail OAuth S"
+      "zh": "自动识别并清理积压的订阅邮件，告别邮件堆积的烦恼，让收件箱回归清爽"
     },
     "description": {
       "en": "Newsletters can take up the inbox like nothing else. Often times they pile-up without being opened at all. Gmail OAuth Setup. 1. [optional] Create a new gmail specifically for OpenClaw. 2. [optional] ",
@@ -752,11 +752,11 @@
     ],
     "name": {
       "en": "Local CRM Framework with DenchClaw",
-      "zh": "Local CRM Framework with DenchClaw"
+      "zh": "本地 CRM 框架（DenchClaw）"
     },
     "summary": {
       "en": "Setting up a CRM that actually works with OpenClaw is painful. You need to wire up databases, build UIs, configure brows",
-      "zh": "Setting up a CRM that actually works with OpenClaw is painful. You need to wire up databases, build UIs, configure brows"
+      "zh": "无需繁琐配置，快速搭建一套能与 OpenClaw 协同工作的本地 CRM 系统，数据完全掌控在自己手中"
     },
     "description": {
       "en": "Setting up a CRM that actually works with OpenClaw is painful. You need to wire up databases, build UIs, configure browser automation, connect messaging platforms, and somehow get the agent to underst",
@@ -791,11 +791,11 @@
     ],
     "name": {
       "en": "Automated Meeting Notes & Action Items",
-      "zh": "Automated Meeting Notes & Action Items"
+      "zh": "自动会议记录与行动项提取"
     },
     "summary": {
       "en": "You just finished a 45-minute team call. Now you need to write up the summary, pull out action items, and distribute the",
-      "zh": "You just finished a 45-minute team call. Now you need to write up the summary, pull out action items, and distribute the"
+      "zh": "会议结束后自动生成摘要、提取行动项并分发给相关人员，把你从45分钟记录工作中解放出来"
     },
     "description": {
       "en": "You just finished a 45-minute team call. Now you need to write up the summary, pull out action items, and distribute them to Jira, Linear, or Todoist — manually. By the time you're done, the next meet",
@@ -822,11 +822,11 @@
     ],
     "name": {
       "en": "Multi-Agent Specialized Team (Solo Founder Setup)",
-      "zh": "Multi-Agent Specialized Team (Solo Founder Setup)"
+      "zh": "多代理专业团队（独立创始人配置）"
     },
     "summary": {
       "en": "Solo founders wear every hat — strategy, development, marketing, sales, operations. Context-switching between these role",
-      "zh": "Solo founders wear every hat — strategy, development, marketing, sales, operations. Context-switching between these role"
+      "zh": "为独立创始人配置多个专业代理，分别负责战略、开发、营销和运营，彻底告别一人身兼多职的疲惫"
     },
     "description": {
       "en": "Solo founders wear every hat — strategy, development, marketing, sales, operations. Context-switching between these roles destroys deep work. Hiring is expensive and slow. What if you could spin up a ",
@@ -853,11 +853,11 @@
     ],
     "name": {
       "en": "OpenClaw + n8n Workflow Orchestration",
-      "zh": "OpenClaw + n8n Workflow Orchestration"
+      "zh": "OpenClaw + n8n 工作流编排"
     },
     "summary": {
       "en": "Letting your AI agent directly manage API keys and call external services is a recipe for security incidents. Every new",
-      "zh": "Letting your AI agent directly manage API keys and call external services is a recipe for security incidents. Every new"
+      "zh": "通过 n8n 安全管理 API 密钥和外部服务调用，让 OpenClaw 专注推理，降低直接操作 API 的安全风险"
     },
     "description": {
       "en": "Letting your AI agent directly manage API keys and call external services is a recipe for security incidents. Every new integration means another credential in .env.local, another surface for the agen",
@@ -884,11 +884,11 @@
     ],
     "name": {
       "en": "Personal CRM with Automatic Contact Discovery",
-      "zh": "Personal CRM with Automatic Contact Discovery"
+      "zh": "自动联系人发现的个人 CRM"
     },
     "summary": {
       "en": "Keeping track of who you've met, when, and what you discussed is impossible to do manually. Important follow-ups slip th",
-      "zh": "Keeping track of who you've met, when, and what you discussed is impossible to do manually. Important follow-ups slip th"
+      "zh": "自动记录每次会面的时间、背景和跟进事项，再也不会忘记重要联系人，让关系管理真正落到实处"
     },
     "description": {
       "en": "Keeping track of who you've met, when, and what you discussed is impossible to do manually. Important follow-ups slip through the cracks, and you forget context before important meetings. This workflo",
@@ -915,11 +915,11 @@
     ],
     "name": {
       "en": "Phone-Based Personal Assistant",
-      "zh": "Phone-Based Personal Assistant"
+      "zh": "电话驱动的个人助理"
     },
     "summary": {
       "en": "You want to access your AI agent from any phone without needing a smartphone app or internet browser. You need hands-fre",
-      "zh": "You want to access your AI agent from any phone without needing a smartphone app or internet browser. You need hands-fre"
+      "zh": "无需智能手机 App 或浏览器，用任何电话拨号即可语音操控你的 AI 代理，真正实现随叫随到"
     },
     "description": {
       "en": "You want to access your AI agent from any phone without needing a smartphone app or internet browser. You need hands-free voice assistance while driving, walking, or when your hands are occupied. Claw",
@@ -956,11 +956,11 @@
     ],
     "name": {
       "en": "Phone Call Notifications",
-      "zh": "Phone Call Notifications"
+      "zh": "电话来电通知"
     },
     "summary": {
       "en": "Your agent already monitors things for you — stocks, emails, smart home, calendars — but notifications are easy to ignor",
-      "zh": "Your agent already monitors things for you — stocks, emails, smart home, calendars — but notifications are easy to ignor"
+      "zh": "当代理监控到股票、邮件、智能家居或日历触发条件时，直接打电话通知你，确保重要事项不被错过"
     },
     "description": {
       "en": "Your agent already monitors things for you — stocks, emails, smart home, calendars — but notifications are easy to ignore. Push notifications pile up. Chat messages get buried. For the stuff that actu",
@@ -991,11 +991,11 @@
     ],
     "name": {
       "en": "Project State Management System: Event-Driven Alternative to Kanban",
-      "zh": "Project State Management System: Event-Driven Alternative to Kanban"
+      "zh": "事件驱动的项目状态管理系统"
     },
     "summary": {
       "en": "Traditional Kanban boards are static and require manual updates. You forget to move cards, lose context between sessions",
-      "zh": "Traditional Kanban boards are static and require manual updates. You forget to move cards, lose context between sessions"
+      "zh": "用事件驱动替代静态看板，自动记录上下文、追踪状态变更，让项目进展透明且无需手动更新"
     },
     "description": {
       "en": "Traditional Kanban boards are static and require manual updates. You forget to move cards, lose context between sessions, and can't track the \"why\" behind state changes. Projects drift without clear v",
@@ -1034,11 +1034,11 @@
     ],
     "name": {
       "en": "Todoist Task Manager: Agent Task Visibility",
-      "zh": "Todoist Task Manager: Agent Task Visibility"
+      "zh": "Todoist 任务管理器：代理任务可视化"
     },
     "summary": {
       "en": "Maximize transparency for long-running agentic workflows by syncing internal reasoning and progress logs directly to Tod",
-      "zh": "Maximize transparency for long-running agentic workflows by syncing internal reasoning and progress logs directly to Tod"
+      "zh": "将代理的内部推理和执行进度实时同步到 Todoist，让长时间运行的工作流对你完全透明可追踪"
     },
     "description": {
       "en": "Maximize transparency for long-running agentic workflows by syncing internal reasoning and progress logs directly to Todoist. When agents run complex, multi-step tasks (like building a full-stack app ",
@@ -1065,11 +1065,11 @@
     ],
     "name": {
       "en": "arXiv Paper Reader",
-      "zh": "arXiv Paper Reader"
+      "zh": "arXiv 论文阅读助手"
     },
     "summary": {
       "en": "Reading arXiv papers means downloading PDFs, losing context when switching between papers, and struggling to parse dense",
-      "zh": "Reading arXiv papers means downloading PDFs, losing context when switching between papers, and struggling to parse dense"
+      "zh": "告别下载 PDF 和论文间频繁切换的痛苦，让 AI 帮你快速解析 arXiv 上的最新研究，提炼关键洞见"
     },
     "description": {
       "en": "Reading arXiv papers means downloading PDFs, losing context when switching between papers, and struggling to parse dense LaTeX notation. You want to read, analyze, and compare papers conversationally ",
@@ -1096,11 +1096,11 @@
     ],
     "name": {
       "en": "Personal Knowledge Base (RAG)",
-      "zh": "Personal Knowledge Base (RAG)"
+      "zh": "个人知识库（RAG）"
     },
     "summary": {
       "en": "You read articles, tweets, and watch videos all day but can never find that one thing you saw last week. Bookmarks pile",
-      "zh": "You read articles, tweets, and watch videos all day but can never find that one thing you saw last week. Bookmarks pile"
+      "zh": "把你看过的文章、推文和视频统一索引，用 RAG 技术精准检索，再也不会找不到上周看到的那篇好文"
     },
     "description": {
       "en": "You read articles, tweets, and watch videos all day but can never find that one thing you saw last week. Bookmarks pile up and become useless. This workflow builds a searchable knowledge base from eve",
@@ -1127,11 +1127,11 @@
     ],
     "name": {
       "en": "LaTeX Paper Writing",
-      "zh": "LaTeX Paper Writing"
+      "zh": "LaTeX 论文写作助手"
     },
     "summary": {
       "en": "Setting up a local LaTeX environment is painful — installing TeX Live takes gigabytes, debugging compilation errors is t",
-      "zh": "Setting up a local LaTeX environment is painful — installing TeX Live takes gigabytes, debugging compilation errors is t"
+      "zh": "跳过 TeX Live 的繁琐安装和编译报错，让 AI 协助你完成 LaTeX 格式的学术论文写作与排版"
     },
     "description": {
       "en": "Setting up a local LaTeX environment is painful — installing TeX Live takes gigabytes, debugging compilation errors is tedious, and switching between your editor and PDF viewer breaks flow. You want t",
@@ -1158,11 +1158,11 @@
     ],
     "name": {
       "en": "Market Research & Product Factory",
-      "zh": "Market Research & Product Factory"
+      "zh": "市场调研与产品孵化工厂"
     },
     "summary": {
       "en": "You want to build a product but don't know what to build. Or you have a business and need to understand what your custom",
-      "zh": "You want to build a product but don't know what to build. Or you have a business and need to understand what your custom"
+      "zh": "不知道做什么产品？让 AI 自动调研市场需求、分析竞品，帮你从零验证并孵化有市场潜力的产品方向"
     },
     "description": {
       "en": "You want to build a product but don't know what to build. Or you have a business and need to understand what your customers are struggling with. This workflow uses the Last 30 Days skill to mine Reddi",
@@ -1189,11 +1189,11 @@
     ],
     "name": {
       "en": "Second Brain",
-      "zh": "Second Brain"
+      "zh": "第二大脑"
     },
     "summary": {
       "en": "You come up with ideas, find interesting links, hear about books to read — but you never have a good system for capturin",
-      "zh": "You come up with ideas, find interesting links, hear about books to read — but you never have a good system for capturin"
+      "zh": "将闪念、链接和书单统一纳入结构化知识系统，让 AI 帮你整理、关联和随时调取你的思维积累"
     },
     "description": {
       "en": "You come up with ideas, find interesting links, hear about books to read — but you never have a good system for capturing them. Notion gets complex, Apple Notes becomes a graveyard of 10,000 unread en",
@@ -1220,11 +1220,11 @@
     ],
     "name": {
       "en": "Semantic Memory Search",
-      "zh": "Semantic Memory Search"
+      "zh": "语义记忆搜索"
     },
     "summary": {
       "en": "OpenClaw's built-in memory system stores everything as markdown files — but as memories grow over weeks and months, find",
-      "zh": "OpenClaw's built-in memory system stores everything as markdown files — but as memories grow over weeks and months, find"
+      "zh": "为 OpenClaw 的 Markdown 记忆文件添加语义向量索引，随着记忆增长也能精准找到相关内容"
     },
     "description": {
       "en": "OpenClaw's built-in memory system stores everything as markdown files — but as memories grow over weeks and months, finding that one decision from last Tuesday becomes impossible. There is no search, ",
@@ -1251,11 +1251,11 @@
     ],
     "name": {
       "en": "AI-Powered Earnings Tracker",
-      "zh": "AI-Powered Earnings Tracker"
+      "zh": "AI 驱动的财报追踪器"
     },
     "summary": {
       "en": "Following earnings season across dozens of tech companies means checking multiple sources and remembering report dates.",
-      "zh": "Following earnings season across dozens of tech companies means checking multiple sources and remembering report dates."
+      "zh": "自动追踪多家科技公司的财报日期与数据，省去跨多个信息源手动查询的繁琐，不错过任何财报季动态"
     },
     "description": {
       "en": "Following earnings season across dozens of tech companies means checking multiple sources and remembering report dates. You want to stay on top of AI/tech earnings without manually tracking every comp",
@@ -1282,11 +1282,11 @@
     ],
     "name": {
       "en": "Polymarket Autopilot: Automated Paper Trading",
-      "zh": "Polymarket Autopilot: Automated Paper Trading"
+      "zh": "Polymarket 自动模拟交易"
     },
     "summary": {
       "en": "Manually monitoring prediction markets for arbitrage opportunities and executing trades is time-consuming and requires c",
-      "zh": "Manually monitoring prediction markets for arbitrage opportunities and executing trades is time-consuming and requires c"
+      "zh": "全天候自动监控预测市场，发现套利机会并执行模拟交易，用回测验证策略而无需手动盯盘"
     },
     "description": {
       "en": "Manually monitoring prediction markets for arbitrage opportunities and executing trades is time-consuming and requires constant attention. You want to test and refine trading strategies without riskin",
