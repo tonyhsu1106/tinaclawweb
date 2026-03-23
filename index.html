@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-zh="Tina-OpenClaw 应用案例" data-en="Tina-OpenClaw Use Cases">Tina-OpenClaw 应用案例</title>
+  <meta name="description" content="汇集 OpenClaw 真实应用案例，探索 AI 改变工作与生活的方式">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/lang.js"></script>
+</head>
+<body>
+
+<!-- 导航栏 -->
+<nav class="navbar" id="navbar">
+  <div class="navbar-logo">Tina-OpenClaw</div>
+  <div class="navbar-categories">
+    <a href="#social" data-zh="社交媒体" data-en="Social">社交媒体</a>
+    <a href="#creative" data-zh="创意与构建" data-en="Creative">创意与构建</a>
+    <a href="#devops" data-zh="基础设施" data-en="DevOps">基础设施</a>
+    <a href="#productivity" data-zh="生产力" data-en="Productivity">生产力</a>
+    <a href="#research" data-zh="研究与学习" data-en="Research">研究与学习</a>
+    <a href="#finance" data-zh="金融与交易" data-en="Finance">金融与交易</a>
+  </div>
+  <div class="navbar-right">
+    <button class="lang-btn active" data-lang="zh" onclick="setLang('zh')">中</button>
+    <button class="lang-btn" data-lang="en" onclick="setLang('en')">EN</button>
+    <button class="hamburger" id="hamburger-btn" aria-label="菜单" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <!-- 移动端下拉菜单 -->
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#social" data-zh="📱 社交媒体" data-en="📱 Social" onclick="closeMenu()">📱 社交媒体</a>
+    <a href="#creative" data-zh="🎨 创意与构建" data-en="🎨 Creative" onclick="closeMenu()">🎨 创意与构建</a>
+    <a href="#devops" data-zh="⚙️ 基础设施" data-en="⚙️ DevOps" onclick="closeMenu()">⚙️ 基础设施</a>
+    <a href="#productivity" data-zh="📋 生产力" data-en="📋 Productivity" onclick="closeMenu()">📋 生产力</a>
+    <a href="#research" data-zh="🔬 研究与学习" data-en="🔬 Research" onclick="closeMenu()">🔬 研究与学习</a>
+    <a href="#finance" data-zh="💰 金融与交易" data-en="💰 Finance" onclick="closeMenu()">💰 金融与交易</a>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+  <h1 data-zh="汇集 OpenClaw 真实应用案例" data-en="Discover Real OpenClaw Use Cases">汇集 OpenClaw 真实应用案例</h1>
+  <p>
+    <span data-zh="探索 AI 改变工作与生活的" data-en="Explore">探索 AI 改变工作与生活的</span>
+    <strong id="case-count">...</strong>
+    <span data-zh="种方式" data-en="ways AI transforms work and life"></span>
+  </p>
+</section>
+
+<!-- 案例 Sections（卡片由 main.js 动态注入） -->
+<div id="sections-container">
+  <section id="social" class="cases-section">
+    <h2 data-zh="📱 社交媒体" data-en="📱 Social Media">📱 社交媒体</h2>
+    <div class="cards-grid" id="grid-social"></div>
+  </section>
+
+  <section id="creative" class="cases-section">
+    <h2 data-zh="🎨 创意与构建" data-en="🎨 Creative & Building">🎨 创意与构建</h2>
+    <div class="cards-grid" id="grid-creative"></div>
+  </section>
+
+  <section id="devops" class="cases-section">
+    <h2 data-zh="⚙️ 基础设施与 DevOps" data-en="⚙️ Infrastructure & DevOps">⚙️ 基础设施与 DevOps</h2>
+    <div class="cards-grid" id="grid-devops"></div>
+  </section>
+
+  <section id="productivity" class="cases-section">
+    <h2 data-zh="📋 生产力工具" data-en="📋 Productivity">📋 生产力工具</h2>
+    <div class="cards-grid" id="grid-productivity"></div>
+  </section>
+
+  <section id="research" class="cases-section">
+    <h2 data-zh="🔬 研究与学习" data-en="🔬 Research & Learning">🔬 研究与学习</h2>
+    <div class="cards-grid" id="grid-research"></div>
+  </section>
+
+  <section id="finance" class="cases-section">
+    <h2 data-zh="💰 金融与交易" data-en="💰 Finance & Trading">💰 金融与交易</h2>
+    <div class="cards-grid" id="grid-finance"></div>
+  </section>
+</div>
+
+<footer>
+  <p data-zh="数据来源：awesome-openclaw-usecases · 由 Tina 整理" data-en="Data source: awesome-openclaw-usecases · Curated by Tina">数据来源：awesome-openclaw-usecases · 由 Tina 整理</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

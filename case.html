@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>案例详情 — Tina-OpenClaw</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/lang.js"></script>
+</head>
+<body>
+
+<!-- 导航栏（简化版，不含类别链接） -->
+<nav class="navbar">
+  <a class="navbar-logo" href="index.html">Tina-OpenClaw</a>
+  <div style="flex:1"></div>
+  <div class="navbar-right">
+    <button class="lang-btn active" data-lang="zh" onclick="setLang('zh')">中</button>
+    <button class="lang-btn" data-lang="en" onclick="setLang('en')">EN</button>
+  </div>
+</nav>
+
+<!-- 封面区（由 case.js 动态填充） -->
+<div id="case-cover"></div>
+
+<!-- 内容区 -->
+<div class="case-content">
+  <!-- 面包屑（由 case.js 填充） -->
+  <div class="breadcrumb" id="breadcrumb"></div>
+
+  <!-- 语言切换浮动按钮 -->
+  <div class="lang-toggle-float">
+    <div style="display:flex;gap:8px">
+      <button class="lang-btn active" data-lang="zh" onclick="setLang('zh')">🇨🇳 中文</button>
+      <button class="lang-btn" data-lang="en" onclick="setLang('en')">🇬🇧 English</button>
+    </div>
+  </div>
+
+  <!-- 内容主体（由 case.js 填充） -->
+  <div id="case-body"></div>
+</div>
+
+<footer>
+  <p data-zh="数据来源：awesome-openclaw-usecases · 由 Tina 整理" data-en="Data source: awesome-openclaw-usecases · Curated by Tina">数据来源：awesome-openclaw-usecases · 由 Tina 整理</p>
+</footer>
+
+<script src="js/case.js"></script>
+</body>
+</html>

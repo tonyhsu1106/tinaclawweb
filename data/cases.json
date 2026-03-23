@@ -1,0 +1,1318 @@
+[
+  {
+    "id": "daily-reddit-digest",
+    "category": "social",
+    "icon": "📱",
+    "gradient": [
+      "#ff375f",
+      "#ff6b6b"
+    ],
+    "name": {
+      "en": "Daily Reddit Digest",
+      "zh": "Daily Reddit Digest"
+    },
+    "summary": {
+      "en": "Run a daily digest everyday to give you the top performing posts from your favourite subreddits. What to use it for: • B",
+      "zh": "Run a daily digest everyday to give you the top performing posts from your favourite subreddits. What to use it for: • B"
+    },
+    "description": {
+      "en": "Run a daily digest everyday to give you the top performing posts from your favourite subreddits. What to use it for: • Browsing subreddits (hot/new/top posts) • Searching posts by topic • Pulling comm",
+      "zh": "Run a daily digest everyday to give you the top performing posts from your favourite subreddits. What to use it for: • Browsing subreddits (hot/new/top posts) • Searching posts by topic • Pulling comm"
+    },
+    "skills": {
+      "en": [],
+      "zh": []
+    },
+    "howto": {
+      "en": "",
+      "zh": ""
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/daily-reddit-digest.md"
+  },
+  {
+    "id": "daily-youtube-digest",
+    "category": "social",
+    "icon": "📱",
+    "gradient": [
+      "#ff375f",
+      "#ff6b6b"
+    ],
+    "name": {
+      "en": "Daily YouTube Digest",
+      "zh": "Daily YouTube Digest"
+    },
+    "summary": {
+      "en": "Start your day with a personalized summary of new videos from your favorite YouTube channels — no more missing content f",
+      "zh": "Start your day with a personalized summary of new videos from your favorite YouTube channels — no more missing content f"
+    },
+    "description": {
+      "en": "Start your day with a personalized summary of new videos from your favorite YouTube channels — no more missing content from creators you actually want to follow. YouTube notifications are unreliable. ",
+      "zh": "Start your day with a personalized summary of new videos from your favorite YouTube channels — no more missing content from creators you actually want to follow. YouTube notifications are unreliable. "
+    },
+    "skills": {
+      "en": [],
+      "zh": []
+    },
+    "howto": {
+      "en": "",
+      "zh": ""
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/daily-youtube-digest.md"
+  },
+  {
+    "id": "multi-source-tech-news-digest",
+    "category": "social",
+    "icon": "📱",
+    "gradient": [
+      "#ff375f",
+      "#ff6b6b"
+    ],
+    "name": {
+      "en": "Multi-Source Tech News Digest",
+      "zh": "Multi-Source Tech News Digest"
+    },
+    "summary": {
+      "en": "Automatically aggregate, score, and deliver tech news from 109+ sources across RSS, Twitter/X, GitHub releases, and web",
+      "zh": "Automatically aggregate, score, and deliver tech news from 109+ sources across RSS, Twitter/X, GitHub releases, and web"
+    },
+    "description": {
+      "en": "Automatically aggregate, score, and deliver tech news from 109+ sources across RSS, Twitter/X, GitHub releases, and web search — all managed through natural language. Staying updated across AI, open-s",
+      "zh": "Automatically aggregate, score, and deliver tech news from 109+ sources across RSS, Twitter/X, GitHub releases, and web search — all managed through natural language. Staying updated across AI, open-s"
+    },
+    "skills": {
+      "en": [
+        "tech-news-digest — Install via clawhub install tech-news-digest",
+        "gog (optional) — For email delivery via Gmail"
+      ],
+      "zh": [
+        "tech-news-digest — Install via clawhub install tech-news-digest",
+        "gog (optional) — For email delivery via Gmail"
+      ]
+    },
+    "howto": {
+      "en": "",
+      "zh": ""
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/multi-source-tech-news-digest.md"
+  },
+  {
+    "id": "x-twitter-automation",
+    "category": "social",
+    "icon": "📱",
+    "gradient": [
+      "#ff375f",
+      "#ff6b6b"
+    ],
+    "name": {
+      "en": "X/Twitter Automation from Chat",
+      "zh": "X/Twitter Automation from Chat"
+    },
+    "summary": {
+      "en": "Full X/Twitter automation through natural language — post tweets, reply, like, retweet, follow, DM, search, extract data",
+      "zh": "Full X/Twitter automation through natural language — post tweets, reply, like, retweet, follow, DM, search, extract data"
+    },
+    "description": {
+      "en": "Full X/Twitter automation through natural language — post tweets, reply, like, retweet, follow, DM, search, extract data, run giveaways, and monitor accounts, all from your OpenClaw chat. Managing an ",
+      "zh": "Full X/Twitter automation through natural language — post tweets, reply, like, retweet, follow, DM, search, extract data, run giveaways, and monitor accounts, all from your OpenClaw chat. Managing an "
+    },
+    "skills": {
+      "en": [
+        "@xquik/tweetclaw — Install via openclaw plugins install @xquik/tweetclaw"
+      ],
+      "zh": [
+        "@xquik/tweetclaw — Install via openclaw plugins install @xquik/tweetclaw"
+      ]
+    },
+    "howto": {
+      "en": "",
+      "zh": ""
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/x-twitter-automation.md"
+  },
+  {
+    "id": "youtube-content-pipeline",
+    "category": "social",
+    "icon": "📱",
+    "gradient": [
+      "#ff375f",
+      "#ff6b6b"
+    ],
+    "name": {
+      "en": "YouTube Content Pipeline",
+      "zh": "YouTube Content Pipeline"
+    },
+    "summary": {
+      "en": "As a daily YouTube creator, finding fresh, timely video ideas across the web and X/Twitter is time-consuming. Tracking w",
+      "zh": "As a daily YouTube creator, finding fresh, timely video ideas across the web and X/Twitter is time-consuming. Tracking w"
+    },
+    "description": {
+      "en": "As a daily YouTube creator, finding fresh, timely video ideas across the web and X/Twitter is time-consuming. Tracking what you've already covered prevents duplicates and helps you stay ahead of trend",
+      "zh": "As a daily YouTube creator, finding fresh, timely video ideas across the web and X/Twitter is time-consuming. Tracking what you've already covered prevents duplicates and helps you stay ahead of trend"
+    },
+    "skills": {
+      "en": [],
+      "zh": []
+    },
+    "howto": {
+      "en": "",
+      "zh": ""
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/youtube-content-pipeline.md"
+  },
+  {
+    "id": "autonomous-game-dev-pipeline",
+    "category": "creative",
+    "icon": "🎨",
+    "gradient": [
+      "#5856d6",
+      "#7c3aed"
+    ],
+    "name": {
+      "en": "Autonomous Educational Game Development Pipeline",
+      "zh": "Autonomous Educational Game Development Pipeline"
+    },
+    "summary": {
+      "en": "The Origin Story: A \"LANero of the old school\" dad wanted to create a safe, ad-free, and high-quality gaming portal for",
+      "zh": "The Origin Story: A \"LANero of the old school\" dad wanted to create a safe, ad-free, and high-quality gaming portal for"
+    },
+    "description": {
+      "en": "The Origin Story: A \"LANero of the old school\" dad wanted to create a safe, ad-free, and high-quality gaming portal for his daughters, Susana (3) and Julieta (coming soon). Existing sites were plagued",
+      "zh": "The Origin Story: A \"LANero of the old school\" dad wanted to create a safe, ad-free, and high-quality gaming portal for his daughters, Susana (3) and Julieta (coming soon). Existing sites were plagued"
+    },
+    "skills": {
+      "en": [
+        "Git: To manage branches, commits, and merges."
+      ],
+      "zh": [
+        "Git: To manage branches, commits, and merges."
+      ]
+    },
+    "howto": {
+      "en": "",
+      "zh": ""
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/autonomous-game-dev-pipeline.md"
+  },
+  {
+    "id": "overnight-mini-app-builder",
+    "category": "creative",
+    "icon": "🎨",
+    "gradient": [
+      "#5856d6",
+      "#7c3aed"
+    ],
+    "name": {
+      "en": "Goal-Driven Autonomous Tasks",
+      "zh": "Goal-Driven Autonomous Tasks"
+    },
+    "summary": {
+      "en": "Your AI agent is powerful but reactive — it only works when you tell it what to do. What if it knew your goals and proac",
+      "zh": "Your AI agent is powerful but reactive — it only works when you tell it what to do. What if it knew your goals and proac"
+    },
+    "description": {
+      "en": "Your AI agent is powerful but reactive — it only works when you tell it what to do. What if it knew your goals and proactively came up with tasks to move you closer to them every single day, without b",
+      "zh": "Your AI agent is powerful but reactive — it only works when you tell it what to do. What if it knew your goals and proactively came up with tasks to move you closer to them every single day, without b"
+    },
+    "skills": {
+      "en": [],
+      "zh": []
+    },
+    "howto": {
+      "en": "",
+      "zh": ""
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/overnight-mini-app-builder.md"
+  },
+  {
+    "id": "pre-build-idea-validator",
+    "category": "creative",
+    "icon": "🎨",
+    "gradient": [
+      "#5856d6",
+      "#7c3aed"
+    ],
+    "name": {
+      "en": "Pre-Build Idea Validator",
+      "zh": "Pre-Build Idea Validator"
+    },
+    "summary": {
+      "en": "Before OpenClaw starts building anything new, it automatically checks whether the idea already exists across GitHub, Hac",
+      "zh": "Before OpenClaw starts building anything new, it automatically checks whether the idea already exists across GitHub, Hac"
+    },
+    "description": {
+      "en": "Before OpenClaw starts building anything new, it automatically checks whether the idea already exists across GitHub, Hacker News, npm, PyPI, and Product Hunt — and adjusts its approach based on what i",
+      "zh": "Before OpenClaw starts building anything new, it automatically checks whether the idea already exists across GitHub, Hacker News, npm, PyPI, and Product Hunt — and adjusts its approach based on what i"
+    },
+    "skills": {
+      "en": [],
+      "zh": []
+    },
+    "howto": {
+      "en": "",
+      "zh": ""
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/pre-build-idea-validator.md"
+  },
+  {
+    "id": "self-healing-home-server",
+    "category": "devops",
+    "icon": "⚙️",
+    "gradient": [
+      "#0071e3",
+      "#00b4d8"
+    ],
+    "name": {
+      "en": "Self-Healing Home Server & Infrastructure Management",
+      "zh": "Self-Healing Home Server & Infrastructure Management"
+    },
+    "summary": {
+      "en": "Running a home server means being on-call 24/7 for your own infrastructure. Services go down at 3 AM, certificates expir",
+      "zh": "Running a home server means being on-call 24/7 for your own infrastructure. Services go down at 3 AM, certificates expir"
+    },
+    "description": {
+      "en": "Running a home server means being on-call 24/7 for your own infrastructure. Services go down at 3 AM, certificates expire silently, disk fills up, and pods crash-loop — all while you're asleep or away",
+      "zh": "Running a home server means being on-call 24/7 for your own infrastructure. Services go down at 3 AM, certificates expire silently, disk fills up, and pods crash-loop — all while you're asleep or away"
+    },
+    "skills": {
+      "en": [],
+      "zh": []
+    },
+    "howto": {
+      "en": "",
+      "zh": ""
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/self-healing-home-server.md"
+  },
+  {
+    "id": "aionui-cowork-desktop",
+    "category": "productivity",
+    "icon": "📋",
+    "gradient": [
+      "#34c759",
+      "#30d158"
+    ],
+    "name": {
+      "en": "OpenClaw as Desktop Cowork (AionUi) — Remote Rescue & Multi-Agent Hub",
+      "zh": "OpenClaw as Desktop Cowork (AionUi) — Remote Rescue & Multi-Agent Hub"
+    },
+    "summary": {
+      "en": "Use OpenClaw from a desktop Cowork UI, access it from Telegram or WebUI when you’re away, and fix it remotely when it wo",
+      "zh": "Use OpenClaw from a desktop Cowork UI, access it from Telegram or WebUI when you’re away, and fix it remotely when it wo"
+    },
+    "description": {
+      "en": "Use OpenClaw from a desktop Cowork UI, access it from Telegram or WebUI when you’re away, and fix it remotely when it won’t connect. AionUi is a free, open-source app that runs OpenClaw as a first-cla",
+      "zh": "Use OpenClaw from a desktop Cowork UI, access it from Telegram or WebUI when you’re away, and fix it remotely when it won’t connect. AionUi is a free, open-source app that runs OpenClaw as a first-cla"
+    },
+    "skills": {
+      "en": [],
+      "zh": []
+    },
+    "howto": {
+      "en": "",
+      "zh": ""
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/aionui-cowork-desktop.md"
+  },
+  {
+    "id": "autonomous-project-management",
+    "category": "productivity",
+    "icon": "📋",
+    "gradient": [
+      "#34c759",
+      "#30d158"
+    ],
+    "name": {
+      "en": "Autonomous Project Management with Subagents",
+      "zh": "Autonomous Project Management with Subagents"
+    },
+    "summary": {
+      "en": "Managing complex projects with multiple parallel workstreams is exhausting. You end up context-switching constantly, tra",
+      "zh": "Managing complex projects with multiple parallel workstreams is exhausting. You end up context-switching constantly, tra"
+    },
+    "description": {
+      "en": "Managing complex projects with multiple parallel workstreams is exhausting. You end up context-switching constantly, tracking status across tools, and manually coordinating handoffs. This use case imp",
+      "zh": "Managing complex projects with multiple parallel workstreams is exhausting. You end up context-switching constantly, tracking status across tools, and manually coordinating handoffs. This use case imp"
+    },
+    "skills": {
+      "en": [],
+      "zh": []
+    },
+    "howto": {
+      "en": "1. **Main agent receives task** → spawns subagent with specific scope\n2. **Subagent reads STATE.yaml** → finds its assigned tasks\n3. **Subagent works autonomously** → updates STATE.yaml on progress\n4. **Other agents poll STATE.yaml** → pick up unblocked work\n5. **Main agent checks in periodically** → reviews state, adjusts priorities",
+      "zh": "1. **Main agent receives task** → spawns subagent with specific scope\n2. **Subagent reads STATE.yaml** → finds its assigned tasks\n3. **Subagent works autonomously** → updates STATE.yaml on progress\n4. **Other agents poll STATE.yaml** → pick up unblocked work\n5. **Main agent checks in periodically** → reviews state, adjusts priorities"
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/autonomous-project-management.md"
+  },
+  {
+    "id": "content-factory",
+    "category": "productivity",
+    "icon": "📋",
+    "gradient": [
+      "#34c759",
+      "#30d158"
+    ],
+    "name": {
+      "en": "Multi-Agent Content Factory",
+      "zh": "Multi-Agent Content Factory"
+    },
+    "summary": {
+      "en": "You're a content creator juggling research, writing, and design across multiple platforms. Each step — finding trending",
+      "zh": "You're a content creator juggling research, writing, and design across multiple platforms. Each step — finding trending"
+    },
+    "description": {
+      "en": "You're a content creator juggling research, writing, and design across multiple platforms. Each step — finding trending topics, writing scripts, generating thumbnails — eats hours of your day. What if",
+      "zh": "You're a content creator juggling research, writing, and design across multiple platforms. Each step — finding trending topics, writing scripts, generating thumbnails — eats hours of your day. What if"
+    },
+    "skills": {
+      "en": [],
+      "zh": []
+    },
+    "howto": {
+      "en": "",
+      "zh": ""
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/content-factory.md"
+  },
+  {
+    "id": "custom-morning-brief",
+    "category": "productivity",
+    "icon": "📋",
+    "gradient": [
+      "#34c759",
+      "#30d158"
+    ],
+    "name": {
+      "en": "Custom Morning Brief",
+      "zh": "Custom Morning Brief"
+    },
+    "summary": {
+      "en": "You wake up and spend the first 30 minutes of your day catching up — scrolling news, checking your calendar, reviewing y",
+      "zh": "You wake up and spend the first 30 minutes of your day catching up — scrolling news, checking your calendar, reviewing y"
+    },
+    "description": {
+      "en": "You wake up and spend the first 30 minutes of your day catching up — scrolling news, checking your calendar, reviewing your to-do list, trying to figure out what matters today. What if all of that was",
+      "zh": "You wake up and spend the first 30 minutes of your day catching up — scrolling news, checking your calendar, reviewing your to-do list, trying to figure out what matters today. What if all of that was"
+    },
+    "skills": {
+      "en": [],
+      "zh": []
+    },
+    "howto": {
+      "en": "",
+      "zh": ""
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/custom-morning-brief.md"
+  },
+  {
+    "id": "dynamic-dashboard",
+    "category": "productivity",
+    "icon": "📋",
+    "gradient": [
+      "#34c759",
+      "#30d158"
+    ],
+    "name": {
+      "en": "Dynamic Dashboard with Sub-agent Spawning",
+      "zh": "Dynamic Dashboard with Sub-agent Spawning"
+    },
+    "summary": {
+      "en": "Static dashboards show stale data and require constant manual updates. You want real-time visibility across multiple dat",
+      "zh": "Static dashboards show stale data and require constant manual updates. You want real-time visibility across multiple dat"
+    },
+    "description": {
+      "en": "Static dashboards show stale data and require constant manual updates. You want real-time visibility across multiple data sources without building a custom frontend or hitting API rate limits. This wo",
+      "zh": "Static dashboards show stale data and require constant manual updates. You want real-time visibility across multiple data sources without building a custom frontend or hitting API rate limits. This wo"
+    },
+    "skills": {
+      "en": [
+        "Sub-agent spawning for parallel execution",
+        "github (gh CLI) for GitHub metrics",
+        "bird (Twitter) for social data",
+        "websearch or webfetch for external APIs",
+        "postgres for storing historical metrics",
+        "Discord or Canvas for rendering the dashboard",
+        "Cron jobs for scheduled updates"
+      ],
+      "zh": [
+        "Sub-agent spawning for parallel execution",
+        "github (gh CLI) for GitHub metrics",
+        "bird (Twitter) for social data",
+        "websearch or webfetch for external APIs",
+        "postgres for storing historical metrics",
+        "Discord or Canvas for rendering the dashboard",
+        "Cron jobs for scheduled updates"
+      ]
+    },
+    "howto": {
+      "en": "",
+      "zh": ""
+    },
+    "difficulty": "advanced",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/dynamic-dashboard.md"
+  },
+  {
+    "id": "event-guest-confirmation",
+    "category": "productivity",
+    "icon": "📋",
+    "gradient": [
+      "#34c759",
+      "#30d158"
+    ],
+    "name": {
+      "en": "Event Guest Confirmation",
+      "zh": "Event Guest Confirmation"
+    },
+    "summary": {
+      "en": "You're hosting an event — a dinner party, a wedding, a company offsite — and you need to confirm attendance from a list",
+      "zh": "You're hosting an event — a dinner party, a wedding, a company offsite — and you need to confirm attendance from a list"
+    },
+    "description": {
+      "en": "You're hosting an event — a dinner party, a wedding, a company offsite — and you need to confirm attendance from a list of guests. Manually calling 20+ people is tedious: you play phone tag, forget wh",
+      "zh": "You're hosting an event — a dinner party, a wedding, a company offsite — and you need to confirm attendance from a list of guests. Manually calling 20+ people is tedious: you play phone tag, forget wh"
+    },
+    "skills": {
+      "en": [],
+      "zh": []
+    },
+    "howto": {
+      "en": "",
+      "zh": ""
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/event-guest-confirmation.md"
+  },
+  {
+    "id": "family-calendar-household-assistant",
+    "category": "productivity",
+    "icon": "📋",
+    "gradient": [
+      "#34c759",
+      "#30d158"
+    ],
+    "name": {
+      "en": "Family Calendar Aggregation & Household Assistant",
+      "zh": "Family Calendar Aggregation & Household Assistant"
+    },
+    "summary": {
+      "en": "Modern families juggle five or more calendars — work, personal, shared family, kids' school, extracurriculars — across d",
+      "zh": "Modern families juggle five or more calendars — work, personal, shared family, kids' school, extracurriculars — across d"
+    },
+    "description": {
+      "en": "Modern families juggle five or more calendars — work, personal, shared family, kids' school, extracurriculars — across different platforms and formats. Important events slip through the cracks because",
+      "zh": "Modern families juggle five or more calendars — work, personal, shared family, kids' school, extracurriculars — across different platforms and formats. Important events slip through the cracks because"
+    },
+    "skills": {
+      "en": [],
+      "zh": []
+    },
+    "howto": {
+      "en": "",
+      "zh": ""
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/family-calendar-household-assistant.md"
+  },
+  {
+    "id": "habit-tracker-accountability-coach",
+    "category": "productivity",
+    "icon": "📋",
+    "gradient": [
+      "#34c759",
+      "#30d158"
+    ],
+    "name": {
+      "en": "Habit Tracker & Accountability Coach",
+      "zh": "Habit Tracker & Accountability Coach"
+    },
+    "summary": {
+      "en": "You've tried every habit tracker app out there. They all work for a week, then you stop opening them. The problem isn't",
+      "zh": "You've tried every habit tracker app out there. They all work for a week, then you stop opening them. The problem isn't"
+    },
+    "description": {
+      "en": "You've tried every habit tracker app out there. They all work for a week, then you stop opening them. The problem isn't the app — it's that tracking habits is passive. What if your agent actively reac",
+      "zh": "You've tried every habit tracker app out there. They all work for a week, then you stop opening them. The problem isn't the app — it's that tracking habits is passive. What if your agent actively reac"
+    },
+    "skills": {
+      "en": [],
+      "zh": []
+    },
+    "howto": {
+      "en": "",
+      "zh": ""
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/habit-tracker-accountability-coach.md"
+  },
+  {
+    "id": "health-symptom-tracker",
+    "category": "productivity",
+    "icon": "📋",
+    "gradient": [
+      "#34c759",
+      "#30d158"
+    ],
+    "name": {
+      "en": "Health & Symptom Tracker",
+      "zh": "Health & Symptom Tracker"
+    },
+    "summary": {
+      "en": "Identifying food sensitivities requires consistent logging over time, which is tedious to maintain. You need reminders t",
+      "zh": "Identifying food sensitivities requires consistent logging over time, which is tedious to maintain. You need reminders t"
+    },
+    "description": {
+      "en": "Identifying food sensitivities requires consistent logging over time, which is tedious to maintain. You need reminders to log and analysis to spot patterns. This workflow tracks food and symptoms auto",
+      "zh": "Identifying food sensitivities requires consistent logging over time, which is tedious to maintain. You need reminders to log and analysis to spot patterns. This workflow tracks food and symptoms auto"
+    },
+    "skills": {
+      "en": [],
+      "zh": []
+    },
+    "howto": {
+      "en": "",
+      "zh": ""
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/health-symptom-tracker.md"
+  },
+  {
+    "id": "inbox-declutter",
+    "category": "productivity",
+    "icon": "📋",
+    "gradient": [
+      "#34c759",
+      "#30d158"
+    ],
+    "name": {
+      "en": "Inbox De-clutter",
+      "zh": "Inbox De-clutter"
+    },
+    "summary": {
+      "en": "Newsletters can take up the inbox like nothing else. Often times they pile-up without being opened at all. Gmail OAuth S",
+      "zh": "Newsletters can take up the inbox like nothing else. Often times they pile-up without being opened at all. Gmail OAuth S"
+    },
+    "description": {
+      "en": "Newsletters can take up the inbox like nothing else. Often times they pile-up without being opened at all. Gmail OAuth Setup. 1. [optional] Create a new gmail specifically for OpenClaw. 2. [optional] ",
+      "zh": "Newsletters can take up the inbox like nothing else. Often times they pile-up without being opened at all. Gmail OAuth Setup. 1. [optional] Create a new gmail specifically for OpenClaw. 2. [optional] "
+    },
+    "skills": {
+      "en": [],
+      "zh": []
+    },
+    "howto": {
+      "en": "",
+      "zh": ""
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/inbox-declutter.md"
+  },
+  {
+    "id": "local-crm-framework",
+    "category": "productivity",
+    "icon": "📋",
+    "gradient": [
+      "#34c759",
+      "#30d158"
+    ],
+    "name": {
+      "en": "Local CRM Framework with DenchClaw",
+      "zh": "Local CRM Framework with DenchClaw"
+    },
+    "summary": {
+      "en": "Setting up a CRM that actually works with OpenClaw is painful. You need to wire up databases, build UIs, configure brows",
+      "zh": "Setting up a CRM that actually works with OpenClaw is painful. You need to wire up databases, build UIs, configure brows"
+    },
+    "description": {
+      "en": "Setting up a CRM that actually works with OpenClaw is painful. You need to wire up databases, build UIs, configure browser automation, connect messaging platforms, and somehow get the agent to underst",
+      "zh": "Setting up a CRM that actually works with OpenClaw is painful. You need to wire up databases, build UIs, configure browser automation, connect messaging platforms, and somehow get the agent to underst"
+    },
+    "skills": {
+      "en": [
+        "CRM Skill — DuckDB-backed structured data management with objects, fields, entries, and multiple view types",
+        "App Builder Skill — Build web apps (dashboards, tools) that run inside the workspace with access to your database",
+        "Browser Automation Skill — Chromium browser with your existing Chrome auth state for web scraping, imports, and outreach"
+      ],
+      "zh": [
+        "CRM Skill — DuckDB-backed structured data management with objects, fields, entries, and multiple view types",
+        "App Builder Skill — Build web apps (dashboards, tools) that run inside the workspace with access to your database",
+        "Browser Automation Skill — Chromium browser with your existing Chrome auth state for web scraping, imports, and outreach"
+      ]
+    },
+    "howto": {
+      "en": "",
+      "zh": ""
+    },
+    "difficulty": "intermediate",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/local-crm-framework.md"
+  },
+  {
+    "id": "meeting-notes-action-items",
+    "category": "productivity",
+    "icon": "📋",
+    "gradient": [
+      "#34c759",
+      "#30d158"
+    ],
+    "name": {
+      "en": "Automated Meeting Notes & Action Items",
+      "zh": "Automated Meeting Notes & Action Items"
+    },
+    "summary": {
+      "en": "You just finished a 45-minute team call. Now you need to write up the summary, pull out action items, and distribute the",
+      "zh": "You just finished a 45-minute team call. Now you need to write up the summary, pull out action items, and distribute the"
+    },
+    "description": {
+      "en": "You just finished a 45-minute team call. Now you need to write up the summary, pull out action items, and distribute them to Jira, Linear, or Todoist — manually. By the time you're done, the next meet",
+      "zh": "You just finished a 45-minute team call. Now you need to write up the summary, pull out action items, and distribute them to Jira, Linear, or Todoist — manually. By the time you're done, the next meet"
+    },
+    "skills": {
+      "en": [],
+      "zh": []
+    },
+    "howto": {
+      "en": "",
+      "zh": ""
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/meeting-notes-action-items.md"
+  },
+  {
+    "id": "multi-agent-team",
+    "category": "productivity",
+    "icon": "📋",
+    "gradient": [
+      "#34c759",
+      "#30d158"
+    ],
+    "name": {
+      "en": "Multi-Agent Specialized Team (Solo Founder Setup)",
+      "zh": "Multi-Agent Specialized Team (Solo Founder Setup)"
+    },
+    "summary": {
+      "en": "Solo founders wear every hat — strategy, development, marketing, sales, operations. Context-switching between these role",
+      "zh": "Solo founders wear every hat — strategy, development, marketing, sales, operations. Context-switching between these role"
+    },
+    "description": {
+      "en": "Solo founders wear every hat — strategy, development, marketing, sales, operations. Context-switching between these roles destroys deep work. Hiring is expensive and slow. What if you could spin up a ",
+      "zh": "Solo founders wear every hat — strategy, development, marketing, sales, operations. Context-switching between these roles destroys deep work. Hiring is expensive and slow. What if you could spin up a "
+    },
+    "skills": {
+      "en": [],
+      "zh": []
+    },
+    "howto": {
+      "en": "",
+      "zh": ""
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/multi-agent-team.md"
+  },
+  {
+    "id": "multi-channel-assistant",
+    "category": "productivity",
+    "icon": "📋",
+    "gradient": [
+      "#34c759",
+      "#30d158"
+    ],
+    "name": {
+      "en": "Multi-Channel Personal Assistant",
+      "zh": "Multi-Channel Personal Assistant"
+    },
+    "summary": {
+      "en": "Context-switching between apps to manage tasks, schedule events, send messages, and track work is exhausting. You want o",
+      "zh": "Context-switching between apps to manage tasks, schedule events, send messages, and track work is exhausting. You want o"
+    },
+    "description": {
+      "en": "Context-switching between apps to manage tasks, schedule events, send messages, and track work is exhausting. You want one interface that routes to all your tools. This workflow consolidates everythin",
+      "zh": "Context-switching between apps to manage tasks, schedule events, send messages, and track work is exhausting. You want one interface that routes to all your tools. This workflow consolidates everythin"
+    },
+    "skills": {
+      "en": [],
+      "zh": []
+    },
+    "howto": {
+      "en": "",
+      "zh": ""
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/multi-channel-assistant.md"
+  },
+  {
+    "id": "multi-channel-customer-service",
+    "category": "productivity",
+    "icon": "📋",
+    "gradient": [
+      "#34c759",
+      "#30d158"
+    ],
+    "name": {
+      "en": "Multi-Channel AI Customer Service Platform",
+      "zh": "Multi-Channel AI Customer Service Platform"
+    },
+    "summary": {
+      "en": "Small businesses juggle WhatsApp, Instagram DMs, emails, and Google Reviews across multiple apps. Customers expect insta",
+      "zh": "Small businesses juggle WhatsApp, Instagram DMs, emails, and Google Reviews across multiple apps. Customers expect insta"
+    },
+    "description": {
+      "en": "Small businesses juggle WhatsApp, Instagram DMs, emails, and Google Reviews across multiple apps. Customers expect instant responses 24/7, but hiring staff for round-the-clock coverage is expensive. T",
+      "zh": "Small businesses juggle WhatsApp, Instagram DMs, emails, and Google Reviews across multiple apps. Customers expect instant responses 24/7, but hiring staff for round-the-clock coverage is expensive. T"
+    },
+    "skills": {
+      "en": [],
+      "zh": []
+    },
+    "howto": {
+      "en": "",
+      "zh": ""
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/multi-channel-customer-service.md"
+  },
+  {
+    "id": "n8n-workflow-orchestration",
+    "category": "productivity",
+    "icon": "📋",
+    "gradient": [
+      "#34c759",
+      "#30d158"
+    ],
+    "name": {
+      "en": "OpenClaw + n8n Workflow Orchestration",
+      "zh": "OpenClaw + n8n Workflow Orchestration"
+    },
+    "summary": {
+      "en": "Letting your AI agent directly manage API keys and call external services is a recipe for security incidents. Every new",
+      "zh": "Letting your AI agent directly manage API keys and call external services is a recipe for security incidents. Every new"
+    },
+    "description": {
+      "en": "Letting your AI agent directly manage API keys and call external services is a recipe for security incidents. Every new integration means another credential in .env.local, another surface for the agen",
+      "zh": "Letting your AI agent directly manage API keys and call external services is a recipe for security incidents. Every new integration means another credential in .env.local, another surface for the agen"
+    },
+    "skills": {
+      "en": [],
+      "zh": []
+    },
+    "howto": {
+      "en": "1. **Agent designs the workflow**: Tell OpenClaw what you need (e.g., \"create a workflow that sends a Slack message when a new GitHub issue is labeled `urgent`\")\n2. **Agent builds it in n8n**: OpenClaw creates the workflow via n8n's API, including an incoming webhook trigger\n3. **You add credentials**: Open n8n's UI, add your Slack token / GitHub token manually\n4. **You lock the workflow**: Prevent further modifications by the agent\n5. **Agent calls the webhook**: From now on, OpenClaw calls `http://n8n:5678/webhook/my-workflow` with a JSON payload — it never sees the API key\n\n```text\n┌──────────────┐     webhook call      ┌─────────────────┐     API call     ┌──────────────┐\n│   OpenClaw   │ ───────────────────→  │   n8n Workflow   │ ─────────────→  │  External    │\n│   (agent)    │   (no credentials)    │  (locked, with   │  (credentials   │  Service     │\n│              │                       │   API keys)      │   stay here)    │  (Slack, etc)│\n└──────────────┘                       └─────────────────┘                  └──────────────┘\n```",
+      "zh": "1. **Agent designs the workflow**: Tell OpenClaw what you need (e.g., \"create a workflow that sends a Slack message when a new GitHub issue is labeled `urgent`\")\n2. **Agent builds it in n8n**: OpenClaw creates the workflow via n8n's API, including an incoming webhook trigger\n3. **You add credentials**: Open n8n's UI, add your Slack token / GitHub token manually\n4. **You lock the workflow**: Prevent further modifications by the agent\n5. **Agent calls the webhook**: From now on, OpenClaw calls `http://n8n:5678/webhook/my-workflow` with a JSON payload — it never sees the API key\n\n```text\n┌──────────────┐     webhook call      ┌─────────────────┐     API call     ┌──────────────┐\n│   OpenClaw   │ ───────────────────→  │   n8n Workflow   │ ─────────────→  │  External    │\n│   (agent)    │   (no credentials)    │  (locked, with   │  (credentials   │  Service     │\n│              │                       │   API keys)      │   stay here)    │  (Slack, etc)│\n└──────────────┘                       └─────────────────┘                  └──────────────┘\n```"
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/n8n-workflow-orchestration.md"
+  },
+  {
+    "id": "personal-crm",
+    "category": "productivity",
+    "icon": "📋",
+    "gradient": [
+      "#34c759",
+      "#30d158"
+    ],
+    "name": {
+      "en": "Personal CRM with Automatic Contact Discovery",
+      "zh": "Personal CRM with Automatic Contact Discovery"
+    },
+    "summary": {
+      "en": "Keeping track of who you've met, when, and what you discussed is impossible to do manually. Important follow-ups slip th",
+      "zh": "Keeping track of who you've met, when, and what you discussed is impossible to do manually. Important follow-ups slip th"
+    },
+    "description": {
+      "en": "Keeping track of who you've met, when, and what you discussed is impossible to do manually. Important follow-ups slip through the cracks, and you forget context before important meetings. This workflo",
+      "zh": "Keeping track of who you've met, when, and what you discussed is impossible to do manually. Important follow-ups slip through the cracks, and you forget context before important meetings. This workflo"
+    },
+    "skills": {
+      "en": [],
+      "zh": []
+    },
+    "howto": {
+      "en": "",
+      "zh": ""
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/personal-crm.md"
+  },
+  {
+    "id": "phone-based-personal-assistant",
+    "category": "productivity",
+    "icon": "📋",
+    "gradient": [
+      "#34c759",
+      "#30d158"
+    ],
+    "name": {
+      "en": "Phone-Based Personal Assistant",
+      "zh": "Phone-Based Personal Assistant"
+    },
+    "summary": {
+      "en": "You want to access your AI agent from any phone without needing a smartphone app or internet browser. You need hands-fre",
+      "zh": "You want to access your AI agent from any phone without needing a smartphone app or internet browser. You need hands-fre"
+    },
+    "description": {
+      "en": "You want to access your AI agent from any phone without needing a smartphone app or internet browser. You need hands-free voice assistance while driving, walking, or when your hands are occupied. Claw",
+      "zh": "You want to access your AI agent from any phone without needing a smartphone app or internet browser. You need hands-free voice assistance while driving, walking, or when your hands are occupied. Claw"
+    },
+    "skills": {
+      "en": [
+        "ClawdTalk",
+        "Calendar skill (Google Calendar or Outlook)",
+        "Jira skill",
+        "Web search skill"
+      ],
+      "zh": [
+        "ClawdTalk",
+        "Calendar skill (Google Calendar or Outlook)",
+        "Jira skill",
+        "Web search skill"
+      ]
+    },
+    "howto": {
+      "en": "",
+      "zh": ""
+    },
+    "difficulty": "intermediate",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/phone-based-personal-assistant.md"
+  },
+  {
+    "id": "phone-call-notifications",
+    "category": "productivity",
+    "icon": "📋",
+    "gradient": [
+      "#34c759",
+      "#30d158"
+    ],
+    "name": {
+      "en": "Phone Call Notifications",
+      "zh": "Phone Call Notifications"
+    },
+    "summary": {
+      "en": "Your agent already monitors things for you — stocks, emails, smart home, calendars — but notifications are easy to ignor",
+      "zh": "Your agent already monitors things for you — stocks, emails, smart home, calendars — but notifications are easy to ignor"
+    },
+    "description": {
+      "en": "Your agent already monitors things for you — stocks, emails, smart home, calendars — but notifications are easy to ignore. Push notifications pile up. Chat messages get buried. For the stuff that actu",
+      "zh": "Your agent already monitors things for you — stocks, emails, smart home, calendars — but notifications are easy to ignore. Push notifications pile up. Chat messages get buried. For the stuff that actu"
+    },
+    "skills": {
+      "en": [
+        "clawr.ing — install by pasting the setup prompt from the clawr.ing dashboard into your OpenClaw chat. No CLI install needed."
+      ],
+      "zh": [
+        "clawr.ing — install by pasting the setup prompt from the clawr.ing dashboard into your OpenClaw chat. No CLI install needed."
+      ]
+    },
+    "howto": {
+      "en": "",
+      "zh": ""
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/phone-call-notifications.md"
+  },
+  {
+    "id": "podcast-production-pipeline",
+    "category": "productivity",
+    "icon": "📋",
+    "gradient": [
+      "#34c759",
+      "#30d158"
+    ],
+    "name": {
+      "en": "Podcast Production Pipeline",
+      "zh": "Podcast Production Pipeline"
+    },
+    "summary": {
+      "en": "You have a podcast idea, maybe even a backlog of episode topics. But between researching guests, writing outlines, draft",
+      "zh": "You have a podcast idea, maybe even a backlog of episode topics. But between researching guests, writing outlines, draft"
+    },
+    "description": {
+      "en": "You have a podcast idea, maybe even a backlog of episode topics. But between researching guests, writing outlines, drafting intros, generating show notes, and writing social media posts for promotion ",
+      "zh": "You have a podcast idea, maybe even a backlog of episode topics. But between researching guests, writing outlines, drafting intros, generating show notes, and writing social media posts for promotion "
+    },
+    "skills": {
+      "en": [],
+      "zh": []
+    },
+    "howto": {
+      "en": "",
+      "zh": ""
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/podcast-production-pipeline.md"
+  },
+  {
+    "id": "project-state-management",
+    "category": "productivity",
+    "icon": "📋",
+    "gradient": [
+      "#34c759",
+      "#30d158"
+    ],
+    "name": {
+      "en": "Project State Management System: Event-Driven Alternative to Kanban",
+      "zh": "Project State Management System: Event-Driven Alternative to Kanban"
+    },
+    "summary": {
+      "en": "Traditional Kanban boards are static and require manual updates. You forget to move cards, lose context between sessions",
+      "zh": "Traditional Kanban boards are static and require manual updates. You forget to move cards, lose context between sessions"
+    },
+    "description": {
+      "en": "Traditional Kanban boards are static and require manual updates. You forget to move cards, lose context between sessions, and can't track the \"why\" behind state changes. Projects drift without clear v",
+      "zh": "Traditional Kanban boards are static and require manual updates. You forget to move cards, lose context between sessions, and can't track the \"why\" behind state changes. Projects drift without clear v"
+    },
+    "skills": {
+      "en": [
+        "postgres or SQLite for project state database",
+        "github (gh CLI) for commit tracking",
+        "Discord or Telegram for updates and queries",
+        "Cron jobs for daily summaries",
+        "Sub-agents for parallel project analysis"
+      ],
+      "zh": [
+        "postgres or SQLite for project state database",
+        "github (gh CLI) for commit tracking",
+        "Discord or Telegram for updates and queries",
+        "Cron jobs for daily summaries",
+        "Sub-agents for parallel project analysis"
+      ]
+    },
+    "howto": {
+      "en": "",
+      "zh": ""
+    },
+    "difficulty": "advanced",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/project-state-management.md"
+  },
+  {
+    "id": "todoist-task-manager",
+    "category": "productivity",
+    "icon": "📋",
+    "gradient": [
+      "#34c759",
+      "#30d158"
+    ],
+    "name": {
+      "en": "Todoist Task Manager: Agent Task Visibility",
+      "zh": "Todoist Task Manager: Agent Task Visibility"
+    },
+    "summary": {
+      "en": "Maximize transparency for long-running agentic workflows by syncing internal reasoning and progress logs directly to Tod",
+      "zh": "Maximize transparency for long-running agentic workflows by syncing internal reasoning and progress logs directly to Tod"
+    },
+    "description": {
+      "en": "Maximize transparency for long-running agentic workflows by syncing internal reasoning and progress logs directly to Todoist. When agents run complex, multi-step tasks (like building a full-stack app ",
+      "zh": "Maximize transparency for long-running agentic workflows by syncing internal reasoning and progress logs directly to Todoist. When agents run complex, multi-step tasks (like building a full-stack app "
+    },
+    "skills": {
+      "en": [],
+      "zh": []
+    },
+    "howto": {
+      "en": "",
+      "zh": ""
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/todoist-task-manager.md"
+  },
+  {
+    "id": "x-account-analysis",
+    "category": "productivity",
+    "icon": "📋",
+    "gradient": [
+      "#34c759",
+      "#30d158"
+    ],
+    "name": {
+      "en": "X Account Analysis",
+      "zh": "X Account Analysis"
+    },
+    "summary": {
+      "en": "There are many websites designed to give you a qualitative analysis of your X account. While X already gives you an anal",
+      "zh": "There are many websites designed to give you a qualitative analysis of your X account. While X already gives you an anal"
+    },
+    "description": {
+      "en": "There are many websites designed to give you a qualitative analysis of your X account. While X already gives you an analytics section, it's more focused to show your numbers on your performance. But a",
+      "zh": "There are many websites designed to give you a qualitative analysis of your X account. While X already gives you an analytics section, it's more focused to show your numbers on your performance. But a"
+    },
+    "skills": {
+      "en": [],
+      "zh": []
+    },
+    "howto": {
+      "en": "",
+      "zh": ""
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/x-account-analysis.md"
+  },
+  {
+    "id": "arxiv-paper-reader",
+    "category": "research",
+    "icon": "🔬",
+    "gradient": [
+      "#ff9500",
+      "#ffcc00"
+    ],
+    "name": {
+      "en": "arXiv Paper Reader",
+      "zh": "arXiv Paper Reader"
+    },
+    "summary": {
+      "en": "Reading arXiv papers means downloading PDFs, losing context when switching between papers, and struggling to parse dense",
+      "zh": "Reading arXiv papers means downloading PDFs, losing context when switching between papers, and struggling to parse dense"
+    },
+    "description": {
+      "en": "Reading arXiv papers means downloading PDFs, losing context when switching between papers, and struggling to parse dense LaTeX notation. You want to read, analyze, and compare papers conversationally ",
+      "zh": "Reading arXiv papers means downloading PDFs, losing context when switching between papers, and struggling to parse dense LaTeX notation. You want to read, analyze, and compare papers conversationally "
+    },
+    "skills": {
+      "en": [],
+      "zh": []
+    },
+    "howto": {
+      "en": "",
+      "zh": ""
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/arxiv-paper-reader.md"
+  },
+  {
+    "id": "knowledge-base-rag",
+    "category": "research",
+    "icon": "🔬",
+    "gradient": [
+      "#ff9500",
+      "#ffcc00"
+    ],
+    "name": {
+      "en": "Personal Knowledge Base (RAG)",
+      "zh": "Personal Knowledge Base (RAG)"
+    },
+    "summary": {
+      "en": "You read articles, tweets, and watch videos all day but can never find that one thing you saw last week. Bookmarks pile",
+      "zh": "You read articles, tweets, and watch videos all day but can never find that one thing you saw last week. Bookmarks pile"
+    },
+    "description": {
+      "en": "You read articles, tweets, and watch videos all day but can never find that one thing you saw last week. Bookmarks pile up and become useless. This workflow builds a searchable knowledge base from eve",
+      "zh": "You read articles, tweets, and watch videos all day but can never find that one thing you saw last week. Bookmarks pile up and become useless. This workflow builds a searchable knowledge base from eve"
+    },
+    "skills": {
+      "en": [],
+      "zh": []
+    },
+    "howto": {
+      "en": "",
+      "zh": ""
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/knowledge-base-rag.md"
+  },
+  {
+    "id": "latex-paper-writing",
+    "category": "research",
+    "icon": "🔬",
+    "gradient": [
+      "#ff9500",
+      "#ffcc00"
+    ],
+    "name": {
+      "en": "LaTeX Paper Writing",
+      "zh": "LaTeX Paper Writing"
+    },
+    "summary": {
+      "en": "Setting up a local LaTeX environment is painful — installing TeX Live takes gigabytes, debugging compilation errors is t",
+      "zh": "Setting up a local LaTeX environment is painful — installing TeX Live takes gigabytes, debugging compilation errors is t"
+    },
+    "description": {
+      "en": "Setting up a local LaTeX environment is painful — installing TeX Live takes gigabytes, debugging compilation errors is tedious, and switching between your editor and PDF viewer breaks flow. You want t",
+      "zh": "Setting up a local LaTeX environment is painful — installing TeX Live takes gigabytes, debugging compilation errors is tedious, and switching between your editor and PDF viewer breaks flow. You want t"
+    },
+    "skills": {
+      "en": [],
+      "zh": []
+    },
+    "howto": {
+      "en": "",
+      "zh": ""
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/latex-paper-writing.md"
+  },
+  {
+    "id": "market-research-product-factory",
+    "category": "research",
+    "icon": "🔬",
+    "gradient": [
+      "#ff9500",
+      "#ffcc00"
+    ],
+    "name": {
+      "en": "Market Research & Product Factory",
+      "zh": "Market Research & Product Factory"
+    },
+    "summary": {
+      "en": "You want to build a product but don't know what to build. Or you have a business and need to understand what your custom",
+      "zh": "You want to build a product but don't know what to build. Or you have a business and need to understand what your custom"
+    },
+    "description": {
+      "en": "You want to build a product but don't know what to build. Or you have a business and need to understand what your customers are struggling with. This workflow uses the Last 30 Days skill to mine Reddi",
+      "zh": "You want to build a product but don't know what to build. Or you have a business and need to understand what your customers are struggling with. This workflow uses the Last 30 Days skill to mine Reddi"
+    },
+    "skills": {
+      "en": [],
+      "zh": []
+    },
+    "howto": {
+      "en": "",
+      "zh": ""
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/market-research-product-factory.md"
+  },
+  {
+    "id": "second-brain",
+    "category": "research",
+    "icon": "🔬",
+    "gradient": [
+      "#ff9500",
+      "#ffcc00"
+    ],
+    "name": {
+      "en": "Second Brain",
+      "zh": "Second Brain"
+    },
+    "summary": {
+      "en": "You come up with ideas, find interesting links, hear about books to read — but you never have a good system for capturin",
+      "zh": "You come up with ideas, find interesting links, hear about books to read — but you never have a good system for capturin"
+    },
+    "description": {
+      "en": "You come up with ideas, find interesting links, hear about books to read — but you never have a good system for capturing them. Notion gets complex, Apple Notes becomes a graveyard of 10,000 unread en",
+      "zh": "You come up with ideas, find interesting links, hear about books to read — but you never have a good system for capturing them. Notion gets complex, Apple Notes becomes a graveyard of 10,000 unread en"
+    },
+    "skills": {
+      "en": [],
+      "zh": []
+    },
+    "howto": {
+      "en": "",
+      "zh": ""
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/second-brain.md"
+  },
+  {
+    "id": "semantic-memory-search",
+    "category": "research",
+    "icon": "🔬",
+    "gradient": [
+      "#ff9500",
+      "#ffcc00"
+    ],
+    "name": {
+      "en": "Semantic Memory Search",
+      "zh": "Semantic Memory Search"
+    },
+    "summary": {
+      "en": "OpenClaw's built-in memory system stores everything as markdown files — but as memories grow over weeks and months, find",
+      "zh": "OpenClaw's built-in memory system stores everything as markdown files — but as memories grow over weeks and months, find"
+    },
+    "description": {
+      "en": "OpenClaw's built-in memory system stores everything as markdown files — but as memories grow over weeks and months, finding that one decision from last Tuesday becomes impossible. There is no search, ",
+      "zh": "OpenClaw's built-in memory system stores everything as markdown files — but as memories grow over weeks and months, finding that one decision from last Tuesday becomes impossible. There is no search, "
+    },
+    "skills": {
+      "en": [],
+      "zh": []
+    },
+    "howto": {
+      "en": "",
+      "zh": ""
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/semantic-memory-search.md"
+  },
+  {
+    "id": "earnings-tracker",
+    "category": "finance",
+    "icon": "💰",
+    "gradient": [
+      "#00b894",
+      "#00cec9"
+    ],
+    "name": {
+      "en": "AI-Powered Earnings Tracker",
+      "zh": "AI-Powered Earnings Tracker"
+    },
+    "summary": {
+      "en": "Following earnings season across dozens of tech companies means checking multiple sources and remembering report dates.",
+      "zh": "Following earnings season across dozens of tech companies means checking multiple sources and remembering report dates."
+    },
+    "description": {
+      "en": "Following earnings season across dozens of tech companies means checking multiple sources and remembering report dates. You want to stay on top of AI/tech earnings without manually tracking every comp",
+      "zh": "Following earnings season across dozens of tech companies means checking multiple sources and remembering report dates. You want to stay on top of AI/tech earnings without manually tracking every comp"
+    },
+    "skills": {
+      "en": [],
+      "zh": []
+    },
+    "howto": {
+      "en": "",
+      "zh": ""
+    },
+    "difficulty": "beginner",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/earnings-tracker.md"
+  },
+  {
+    "id": "polymarket-autopilot",
+    "category": "finance",
+    "icon": "💰",
+    "gradient": [
+      "#00b894",
+      "#00cec9"
+    ],
+    "name": {
+      "en": "Polymarket Autopilot: Automated Paper Trading",
+      "zh": "Polymarket Autopilot: Automated Paper Trading"
+    },
+    "summary": {
+      "en": "Manually monitoring prediction markets for arbitrage opportunities and executing trades is time-consuming and requires c",
+      "zh": "Manually monitoring prediction markets for arbitrage opportunities and executing trades is time-consuming and requires c"
+    },
+    "description": {
+      "en": "Manually monitoring prediction markets for arbitrage opportunities and executing trades is time-consuming and requires constant attention. You want to test and refine trading strategies without riskin",
+      "zh": "Manually monitoring prediction markets for arbitrage opportunities and executing trades is time-consuming and requires constant attention. You want to test and refine trading strategies without riskin"
+    },
+    "skills": {
+      "en": [
+        "websearch or webfetch (for Polymarket API data)",
+        "postgres or SQLite for trade logs and portfolio tracking",
+        "Discord integration for daily reports",
+        "Cron jobs for continuous monitoring",
+        "Sub-agent spawning for parallel market analysis"
+      ],
+      "zh": [
+        "websearch or webfetch (for Polymarket API data)",
+        "postgres or SQLite for trade logs and portfolio tracking",
+        "Discord integration for daily reports",
+        "Cron jobs for continuous monitoring",
+        "Sub-agent spawning for parallel market analysis"
+      ]
+    },
+    "howto": {
+      "en": "",
+      "zh": ""
+    },
+    "difficulty": "advanced",
+    "githubUrl": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/polymarket-autopilot.md"
+  }
+]

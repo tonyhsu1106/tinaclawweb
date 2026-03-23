@@ -1,0 +1,11 @@
+{
+  "name": "tinaclawweb",
+  "version": "1.0.0",
+  "description": "Tina-OpenClaw Use Cases Website",
+  "scripts": {
+    "fetch": "node scripts/fetch-cases.js"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": { "node": ">=18" }
+}
